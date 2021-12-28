@@ -1,1 +1,1 @@
-# Problem Solving Skills
+# Class 2 - Problem Solving Skills
