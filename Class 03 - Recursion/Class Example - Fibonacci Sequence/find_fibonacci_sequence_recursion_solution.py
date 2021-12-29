@@ -6,4 +6,4 @@ def find_fibonacci_sequence(n):
     else: 
         return find_fibonacci_sequence(n - 1) + find_fibonacci_sequence(n - 2)
 
-print(find_fibonacci_sequence(7))
+print(find_fibonacci_sequence(6))
