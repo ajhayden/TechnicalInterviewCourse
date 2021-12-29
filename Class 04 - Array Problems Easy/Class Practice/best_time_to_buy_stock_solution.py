@@ -6,14 +6,14 @@
 inputArray = [7, 1, 5, 3, 6, 4]
 
 def best_time_to_buy_stock(nums):
-    best_value = 0
+    best_profit = 0
     
     for i in range(0, len(nums)):
         for j in range(i + 1, len(nums)):
-            check_value = nums[j] - nums[i]
-            if check_value > best_value:
-                best_value = check_value
-    return best_value
+            check_profit = nums[j] - nums[i]
+            if check_profit > best_profit:
+                best_profit = check_profit
+    return best_profit
 
 print(best_time_to_buy_stock(inputArray))
 
