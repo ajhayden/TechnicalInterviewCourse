@@ -1,1 +1,1 @@
-# Class 3 - Recursion and Iteration
+# Class 3 - Recursion
