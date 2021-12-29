@@ -1,4 +1,4 @@
-# Write a function that sums a value of all natural numbers that that value includes
+# Write a function that sums all natural numbers that lead up to a given value using recursion
 
 def sum_of_natural_numbers(num):
     if num == 0:
