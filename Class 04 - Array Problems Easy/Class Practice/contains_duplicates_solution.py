@@ -2,7 +2,7 @@
 # Your function should return false if every element is distinct.
 # This problem came from leetcode.com
 
-inputArray = [1, 2, 3, 3, 4]
+input_array = [1, 2, 3, 3, 4]
 
 def contains_duplicates(arr):
     for i in range(0, len(arr)):
@@ -12,7 +12,7 @@ def contains_duplicates(arr):
 
     return False
 
-print(contains_duplicates(inputArray))
+print(contains_duplicates(input_array))
 
 # More optimized with O(n)
 def contains_duplicates_2(arr):
@@ -24,4 +24,4 @@ def contains_duplicates_2(arr):
     
     return False
 
-print(contains_duplicates_2(inputArray))
+print(contains_duplicates_2(input_array))

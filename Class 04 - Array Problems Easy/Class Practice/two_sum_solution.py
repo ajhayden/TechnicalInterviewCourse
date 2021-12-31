@@ -8,9 +8,9 @@ def two_sum(arr, target):
             if arr[i] + arr[j] == target:
                 return [i, j]
 
-arr1 = [2, 5, 6, 3, 9] 
+input_array = [2, 5, 6, 3, 9] 
 target1 = 9
-print(two_sum(arr1, target1))
+print(two_sum(input_array, target1))
 
 # This is a more optimized version with O(n)
 def two_sum_with_dictionary(nums, target):

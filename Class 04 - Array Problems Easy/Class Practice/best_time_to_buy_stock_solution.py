@@ -4,7 +4,7 @@
 # sell one share of the stock) design an algorithm to find the maximum profit
 # This problem came from leetcode.com
 
-inputArray = [7, 1, 5, 3, 6, 4]
+input_array = [7, 1, 5, 3, 6, 4]
 
 def best_time_to_buy_stock(nums):
     best_profit = 0
@@ -16,7 +16,7 @@ def best_time_to_buy_stock(nums):
                 best_profit = check_profit
     return best_profit
 
-print(best_time_to_buy_stock(inputArray))
+print(best_time_to_buy_stock(input_array))
 
 # Optimized version that only uses one for loop
 def best_time_to_buy_stock_optimized(prices):
@@ -33,4 +33,4 @@ def best_time_to_buy_stock_optimized(prices):
 
     return maxProfit
 
-print(best_time_to_buy_stock_optimized(inputArray))
+print(best_time_to_buy_stock_optimized(input_array))
