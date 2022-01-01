@@ -3,6 +3,7 @@
 # This problem came from leetcode.com
 
 input_array = [3, 4, 5, 6, 1, 2]
+# Output = 1
 
 def minimum_rotated_sorted_array(nums):
     minimum_result = nums[0]

@@ -7,6 +7,7 @@
 
 input_array = [4, 5, 6, 7, 0, 1, 2]
 target = 0
+# Output = 4
 
 # This is O(n) not O(log n)
 def search_rotated_sorted_array(nums, target):
