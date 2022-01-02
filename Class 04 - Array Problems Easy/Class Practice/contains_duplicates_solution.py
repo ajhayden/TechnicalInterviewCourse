@@ -3,6 +3,7 @@
 # This problem came from leetcode.com
 
 input_array = [1, 2, 3, 3, 4]
+# Output = True
 
 def contains_duplicates(arr):
     for i in range(0, len(arr)):

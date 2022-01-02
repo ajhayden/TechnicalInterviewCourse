@@ -2,15 +2,17 @@
 # You may assume that each input would have exactly one solution, and you may not use the same element twice
 # This problem came from leetcode.com
 
+input_array = [2, 5, 6, 3, 9] 
+input_target = 9
+# Output = [2, 3]
+
 def two_sum(arr, target):
     for i in range(0, len(arr)):
         for j in range(i + 1, len(arr)):
             if arr[i] + arr[j] == target:
                 return [i, j]
 
-input_array = [2, 5, 6, 3, 9] 
-target1 = 9
-print(two_sum(input_array, target1))
+print(two_sum(input_array, input_target))
 
 # This is a more optimized version with O(n)
 def two_sum_with_dictionary(nums, target):
@@ -24,8 +26,6 @@ def two_sum_with_dictionary(nums, target):
 
     return [0]
 
-nums = [2, 5, 6, 3, 9] 
-target2 = 9
-print(two_sum_with_dictionary(nums, target2))
+print(two_sum_with_dictionary(input_array, input_target))
 
 
