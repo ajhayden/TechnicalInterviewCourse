@@ -18,7 +18,4 @@ def richest_customer_wealth(accounts):
     return richest_account
 
 print(richest_customer_wealth(input_accounts))
-
-# Optimized version
-def richest_customer_wealth_optimized(accounts):
     
