@@ -2,8 +2,8 @@
 # least one number) which has the largest product.
 # This problem came from leetcode.com
 
-inputArray = [2, 3, -2, 4, 8, 2, -1, -2]
-# output: 6
+input_array = [8, 2, -1, -2, -3, 2]
+# output: 32
 
 def maximum__product_subarray(nums):
     max_product_sum = 0

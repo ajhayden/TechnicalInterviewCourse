@@ -2,7 +2,7 @@
 # to you beforehand. Find the maximum number in the sorted array. You may assume no duplicate exists in the array.
 # This problem came from leetcode.com
 
-input_array = [3, 4, 5, 6, 7, 1, 2]
+input_array = [3, 4, 5, 6, 1, 2]
 # Output = 6
 
 def maximum_rotated_sorted_array(nums):
@@ -23,15 +23,12 @@ def maximum_rotated_sorted_array_optimized(nums):
     high = len(nums) - 1
 
     while low < high:
-        print("low", low)
-        print("high", high)
         guess = (low + high) / 2
-        print("guess", guess)
         if nums[guess] > nums[high]:
             low = guess + 1
         else:
             high = guess
 
-    return nums[low]
+    return nums[high - 1]
 
 print(maximum_rotated_sorted_array_optimized(input_array))
