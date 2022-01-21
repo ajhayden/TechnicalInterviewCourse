@@ -1,13 +1,14 @@
 CI/CD Questions
 1. What is CI/CD? What are some good CI/CD practices?
-- Answer
+    - Answer
+        - Answer
 2. What are the differences between continuous integration, continuous delivery, and continuous deployment?
 3. What is blue/green deployment?
 
 Cloud Questions
-4. What does high availability mean?
-5. What does high durability mean?
-6. What does cloud hosting mean?
+1. What does high availability mean?
+2. What does high durability mean?
+3. What does cloud hosting mean?
 
 Containerization Questions
 7. What is containerization? 
