@@ -1,4 +1,4 @@
-CI/CD Questions
+**CI/CD Questions**
 
 1. What is CI/CD? What are some good CI/CD practices?
     - CI stands for continuous integration. This concept ensures the regular building and testing of a program. CD stands for continuous delivery. This concept refers to the ongoing development of a program ahead of production. Good practices include the following principles:
@@ -17,7 +17,7 @@ CI/CD Questions
 3. What is blue/green deployment?
     - This is a continuous integration technique that consists of having two identical production environments. One of the environments is deployed and is in immediate use. The other environment is updated with new features and also tested. When the tests are successful the team will swithc from the first environment to the second environment.
 
-Cloud Questions
+**Cloud Questions**
 
 1. What does high availability mean?
     - The ability of a system to be running with no failures for a given amount of time.
@@ -28,7 +28,7 @@ Cloud Questions
 3. What does cloud hosting mean?
     - The use of computer system resources without direct management by a user.
 
-Containerization Questions
+**Containerization Questions**
 
 1. What is containerization?
     - Containerization is a form of virtualization in which programs are run in contianers that utilize the underlying power of an operating system.
@@ -36,7 +36,7 @@ Containerization Questions
 2. What are the benefits of Docker?
     - Docker allows you to run applications across varying operating systems without needing to constantly change code and configurations. It also allows applications to be deployed and scaled with relative ease.
 
-Database and SQL Questions
+**Database and SQL Questions**
 
 1. What is a NoSQL database and what are some use cases for one?
     - Unlike a relational database, a NoSQL database does not use tables to organize its data. Data is stored in objects that can vary in size, structure, and types.
@@ -60,7 +60,8 @@ Database and SQL Questions
 8. What is an ORM?
 9. What is DOA?
 
-Data Structure Questions
+**Data Structure Questions**
+
 1. What is and what are the benefits of using a graph?
 2. What is and what are the benefits of using a binary tree?
 3. What is and what are the benefits of using a tuple?
@@ -77,7 +78,8 @@ Data Structure Questions
 14. What is the difference between FIFO and LIFO?
 15. What is and what are the benefits of using an queue? 
 
-Framework Questions
+**Framework Questions**
+
 1. What does REST stand for?
 2. What is the ACID property of a system?
 3. What are the DRY and DIE principles? Give an example
@@ -88,24 +90,27 @@ Framework Questions
 8. What does SOLID mean?
 9. What is Agile development?
 
-Language Questions
+**Language Questions**
+
 1. How is Python interpreted?
 2. How is C interpreted?
 3. How is Java interpreted?
 5. What is strong-typing and weak-typing? Which is preferred? Why?
 
-Miscellaneous Questions
+**Miscellaneous Questions**
+
 1. What is regex?
 2. What is the difference between git fetch and rebase and git pull?
 
-Object Oriented Programming Questions
+**Object Oriented Programming Questions**
+
 1. What is encapcilation? Give an example.
 2. What is inheritance? Give an example.
 3. What is abstraction? Give an example.
 4. What is polymorphism? Give an example.
 5. What do you think makes object-oriented design the preferred approach?
 
-Opinion Questions
+**Opinion Questions**
 1. What is difficult about writing code?
 2. What programming languages do you like to work with and why?
 3. What is your approach to debugging?
@@ -113,7 +118,8 @@ Opinion Questions
 5. Why would you use microservice architecture?
 6. What’s important when checking a team member’s code? 
 
-Programming Questions
+**Programming Questions**
+
 1. What is a class?
 2. What is a clousure?
 3. What do classes and closures have in common?
@@ -126,7 +132,8 @@ Programming Questions
 10. What is a generic?
 11. What is an abstract class?
 
-Software Design Questions
+**Software Design Questions**
+
 1. What is and when would you apply asynchronous communication between two systems?
 2. What does the term seperation of concerns mean?
 3. What is the difference between Request/Reply and Publish/Subscribe models?
@@ -141,7 +148,8 @@ Software Design Questions
 12. When should one use memoization?
 13. What is caching?
 
-Software Design Pattern Questions
+**Software Design Pattern Questions**
+
 1. What is a singleton? Give an example of when to use this principle
 2. What is a factory? Give an example of when to use this principle
 3. What is an adapter design pattern?
@@ -149,12 +157,14 @@ Software Design Pattern Questions
 5. What is an observer design pattern?
 6. What is a strategy design pattern?
 
-Test Questions
+**Test Questions**
+
 1. What is a unit test?
 2. What is an integration test?
 3. What does it mean to mock a test? When should or shouldn't you mock a test?
 
-Web Questions
+**Web Questions**
+
 1. What is a JWT?
 2. What are advantages of Web Services?
 3. What is a sticky session?
