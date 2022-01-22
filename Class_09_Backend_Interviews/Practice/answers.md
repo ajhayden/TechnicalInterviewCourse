@@ -1,22 +1,59 @@
 CI/CD Questions
+
 1. What is CI/CD? What are some good CI/CD practices?
-    - Answer
+    - CI stands for continuous integration. This concept ensures the regular building and testing of a program. CD stands for continuous delivery. This concept refers to the ongoing development of a program ahead of production. Good practices include the following principles:
+        - Commit early, commit often
+        - Keep the builds green
+        - Build only once
+        - Streamline your tests
+        - Clean your environments
+        - Make it the only way to deploy to production
+        - Monitor and measure your pipeline
+        - Make it a team effort
+
 2. What are the differences between continuous integration, continuous delivery, and continuous deployment?
+    - Continuous integration ensures the regular building and testing of a program. Continuous delivery ensures the ongoing development of a program ahead of production. Lastly, continuous deployment ensures your code is constantly being deployed to dev, stage, and prod environments with appropriate test checks.
+
 3. What is blue/green deployment?
+    - This is a continuous integration technique that consists of having two identical production environments. One of the environments is deployed and is in immediate use. The other environment is updated with new features and also tested. When the tests are successful the team will swithc from the first environment to the second environment.
 
 Cloud Questions
+
 1. What does high availability mean?
+    - The ability of a system to be running with no failures for a given amount of time.
+
 2. What does high durability mean?
+    - The ability of a storage service to safely store data without losing data.
+
 3. What does cloud hosting mean?
+    - The use of computer system resources without direct management by a user.
 
 Containerization Questions
-1. What is containerization? 
+
+1. What is containerization?
+    - Containerization is a form of virtualization in which programs are run in contianers that utilize the underlying power of an operating system.
+
 2. What are the benefits of Docker?
+    - Docker allows you to run applications across varying operating systems without needing to constantly change code and configurations. It also allows applications to be deployed and scaled with relative ease.
 
 Database and SQL Questions
+
 1. What is a NoSQL database and what are some use cases for one?
+    - Unlike a relational database, a NoSQL database does not use tables to organize its data. Data is stored in objects that can vary in size, structure, and types.
+    - NoSQL databases are a good choice when:
+        - You have a large volume and variety of data
+        - Scalability is a top priority
+        - You need continuous availability
+        - Working with big data or performing real-time analytics
+    - For example a NoSQL database would be good for Internet of things (IoT) and sensor data or a messaging service.
+
 2. What is SQL injection?
+    - SQL injection is the placement of malicious code in SQL statements, via web page input.
+    - SQL injection is a code injection technique that might destroy your database.
+    - SQL injection is one of the most common web hacking techniques.
+
 3. What is the difference between JOIN and UNION?
+    - A JOIN ... On the otherhand, a UNION 
 4. If you have a limited amount of memory, how would you handle a large amount of data?
 5. What does normalization mean in reference to datbases?
 7. How do you improve a database query?
@@ -127,3 +164,13 @@ Web Questions
 7. What does statelessness mean in regards to web services?
 8. What is a TCP socket?
 9. What are some ways to make websites faster?
+
+
+The following websites were used to gather questions as well as answer the provided questions:
+- https://procoders.tech/blog/back-end-engineer-interview-questions/
+- https://www.jetbrains.com/teamcity/ci-cd-guide/ci-cd-best-practices/
+- https://github.com/arialdomartini/Back-End-Developer-Interview-Questions
+- https://en.wikipedia.org/wiki/Cloud_computing
+- https://www.datastax.com/blog/sql-vs-nosql-whats-the-difference
+- https://www.w3schools.com/sql/sql_injection.asp
+
