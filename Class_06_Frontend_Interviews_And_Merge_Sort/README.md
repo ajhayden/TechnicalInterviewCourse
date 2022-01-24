@@ -1,1 +1,1 @@
-# Class 6 - Behavioral Interviews
+# Class 6 - Frontend and Merge Sort
