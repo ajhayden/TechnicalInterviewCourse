@@ -14,6 +14,7 @@ def merge(arr, first, middle, last):
     left.append(999999999)
     right.append(999999999)
     i = j = 0
+
     for k in range (first, last+1):
         if left[i] <= right[j]:
             arr[k] = left[i]
@@ -25,5 +26,12 @@ def merge(arr, first, middle, last):
 input1 = [45, 98, 3, 24, 15, 77, 9, 50] # [3, 9, 15, 24, 45, 50, 77, 98]
 input2 = [18, 16, 27, 4, 12] # [4, 12, 16, 18, 27]
 
-print(merge_sort(input1))
-print(merge_sort(input2))
+print("input1")
+print(input1)
+merge_sort(input1)
+print(input1)
+
+print("input2")
+print(input2)
+merge_sort(input2)
+print(input2)
