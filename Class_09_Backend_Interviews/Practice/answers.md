@@ -82,40 +82,75 @@
 **Data Structure Questions**
 
 1. What is and what are the benefits of using a graph?
-    - 
+    - A graph is a set of nodes (vertices) and a set of connections (edges) which define relations between nodes. The graph allows one to represent spefic domains such as city layouts or networks as a data structure. A major advantage of using a graph is one can apply graph algorithms to the graph.
+        - Space Complexity
+            - Adjacency Matrix: O(V^2)
+            - Adjacency List: O(V+E)
+            - Edges List: O(E)
+        - Time Complexity
+            - Connection Checking
+                - Adjacency Matrix: O(1)
+                - Adjacency List: O(N)
+                - O(E)
+            - Neighbors Findiing
+                - Adjacency Matrix: O(V)
+                - Adjacency List: O(N)
+                - Edges List: O(E)
 
 2. What is and what are the benefits of using a binary tree?
-    - 
+    - A binary tree is a hierarchical tree-based data structure in which each node has at most two children. The root node is the top most node of the tree. Each node can have a left or right node. Links between nodes are called branches. A node without children nodes are called leaf nodes. The main advantage of a binary tree is simplicity. They are used to reflect relationships between data and can store an arbitrary number of data values.
+        - Access: O(log(n))
+        - Search: O(log(n))
+        - Insertion: O(log(n))
+        - Deletion O(log(n))
 
 3. What is and what are the benefits of using a tuple?
-    - 
+    - A tuple is a fixed data structure that usually allows one to store two values. The data structure is often immutable and cannot be changed once they are assigned. Python has a built in tuple data structure.
+        - Time Complexity
+            - Find an element: O(1)
 
 4. What is and what are the benefits of using a set?
-    - 
+    - A set is a data structure that can store any number of unique values. The major benefit of a set is that it does not store duplicate values. Sets reduce the amount of need to check for duplicates. 
+        - Time Complexity
+            - O(log(n)) or O(1)
 
 5. What is and what are the benefits of using a dictionary?
+    - 
 6. What is and what are the benefits of using a linked list?
+    - 
 7. What is and what are the benefits of using a doubley linked list?
+    - 
 8. What is and what are the benefits of using an array?
+    - 
 9. What is the difference between a breadth-first search and a depth-first search?
+    - 
 10. How does a merge sort work? What is its time complexity?
+    - 
 11. How does a quick sort work? What is its time complexity?
+    - 
 12. Define “stack” and “heap.” What is a stack overflow?
+    - 
 13. How does an array differ from a stack?
+    - 
 14. What is the difference between FIFO and LIFO?
     - FIFO stands for first in first out. A queue is an example of the FIFO principle. Elements are placed in a queue and the first element place in the queue is the next to be removed. LIFO stands for last in first out. A stack is an example of the LIFO principle. Elements are placed on the stack and the most recently placed element is the element next removed from a stack.
 
 15. What is and what are the benefits of using an queue? 
+    - 
 
 **Framework Questions**
 
 1. What does REST stand for?
     - REST stands for Representational State Transfer. After a client requests a resource, a RESTful API will transfer a representation of the state of the requested resource to the client. 
 
-2. What are the DRY and DIE principles? Give an example
+2. What are the DRY and DIE principles? Give an example.
+    - 
 3. Name some best practices for RESTful API design?
+    - 
 4. What is an MVC framework? Pros and cons?
+    - 
 5. What is an MVVM framework? Pros and cons?
+    - 
 6. What is CAP theorem?
     - 
 7. What does SOLID mean?
@@ -126,92 +161,164 @@
         - Interface Segregation Principle: It is better to have a lot of smaller interfaces than a few larger interfaces.
         - Dependency Inversion Principle: This principle offers a way to decouple software modules. Developers should depend on abstractions (use of intefaces), not on concretions (direct use of classes).
 8. What is Agile development?
+    - 
 
 **Language Questions**
 
 1. How is Python interpreted?
+    - 
 2. How is C interpreted?
+    - 
 3. How is Java interpreted?
+    - 
 5. What is strong-typing and weak-typing? Which is preferred? Why?
+    - 
 
 **Miscellaneous Questions**
 
 1. What is regex?
+    - Regex stands for regular expression. Regex is a sequence of characters that specifies a search pattern in text. The expression is used to match, locate, and adjust text. The following is a regex example that can be used to match a phone number: "^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$". 
+
 2. What is the difference between git fetch and rebase and git pull?
+    - 
 
 **Object Oriented Programming Questions**
 
 1. What is encapcilation? Give an example.
+    - 
 2. What is inheritance? Give an example.
+    - 
 3. What is abstraction? Give an example.
+    - 
 4. What is polymorphism? Give an example.
+    - 
 5. What do you think makes object-oriented design the preferred approach?
+    - 
 
 **Opinion Questions**
 1. What is difficult about writing code?
+    - 
 2. What programming languages do you like to work with and why?
+    - 
 3. What is your approach to debugging?
+    - 
 4. What is your most challenging project?
+    - 
 5. Why would you use microservice architecture?
-6. What’s important when checking a team member’s code? 
+    - 
+6. What’s important when checking a team member’s code?
+    - 
 
 **Programming Questions**
 
 1. What is a class?
+    - 
 2. What is a clousure?
+    - 
 3. What do classes and closures have in common?
+    - 
 4. What is an interface?
+    - 
 5. What is a tirnary function?
+    - 
 6. What is the difference between a function and a method?
+    - 
 7. What is an anynomous function? Why are they useful?
+    - 
 8. What is a callback function?
+    - 
 9. What is functional programming?
+    - 
 10. What is a generic?
+    - 
 11. What is an abstract class?
+    - 
 
 **Software Design Questions**
 
 1. What is and when would you apply asynchronous communication between two systems?
+    - 
 2. What does the term seperation of concerns mean?
+    - 
 3. What is the difference between Request/Reply and Publish/Subscribe models?
+    - 
 4. When should one scale up vs scale out?
+    - 
 5. Why would you choose a microservice approach vs a monolithic app?
+    - 
 6. Explain the differences between a Thread and a Process?
+    - 
 7. What is the meaning of “high cohesion” and “loose coupling”?
+    - 
 8. What is a reverse proxy?
+    - 
 9. What is a thread?
-10. What is lazy loading? Give an example of using this principle
+    - 
+10. What is lazy loading? Give an example of using this principle.
+    - 
 11. What is tight coupling?
+    - 
 12. When should one use memoization?
+    - 
 13. What is caching?
+    - A cache is a data storage layer which stores a subset of data, so that future requests for that data can be accessed faster than through the data’s primary storage location.
 
 **Software Design Pattern Questions**
 
 1. What is a singleton? Give an example of when to use this principle
+    - 
 2. What is a factory? Give an example of when to use this principle
+    - 
 3. What is an adapter design pattern?
+    - 
 4. What is a builder design pattern?
+    - 
 5. What is an observer design pattern?
+    - 
 6. What is a strategy design pattern?
+    - 
 
 **Test Questions**
 
 1. What is a unit test?
+    - A unit test tests one element or module in a computer program or application.
+
 2. What is an integration test?
+    - An integration test tests a group of elements or modules in a computer program or application. The test combines modules in order to validate the interactions between varying components.
+
 3. What does it mean to mock a test? When should or shouldn't you mock a test?
+    - 
 
 **Web Questions**
 
-1. What is a JWT?
+1. What is a JWT? How does it work?
+    - 
 2. What are advantages of Web Services?
+    - 
 3. What is a sticky session?
+    - 
 4. What are and how does SSL/TLS work?
+    - 
 5. What is JavaScript and why is it used?
+    - 
 6. Define and explain these nine server response error codes: 200, 201, 204, 301, 400, 401, 404, 409 and 500
-7. What does statelessness mean in regards to web services?
-8. What is a TCP socket?
-9. What are some ways to make websites faster?
+    - 200: 'Okay' or successful.
+    - 201: 'Created'. The message means a resource was created at the client's request.
+    - 204: 'No Content'. The message means the server didn't send back a status.
+    - 301: 'Moved Permanently'. The message means a client-triggered action changed the resource location.
+    - 400: 'Bad Request'. The error refers to a client-side error. 
+    - 402: 'Unathorized'. The client did provide the correct authentication.
+    - 404: 'Not Found'. The error means no mapped resource was found. 
+    - 409: 'Conflict'. An inconsistent or impossible state.
+    - 500: 'Internal Server Error'. This error indicates a server-side issue.
 
+7. What does statelessness mean in regards to web services?
+    - 
+8. What is a TCP socket?
+    - TCP sockets provide an open bi-directional connection between a client and server socket. The connection is uniquely identified using the combination of the client socket and server socket. The combination contains four elements: the client IP address and port, and the server IP address and port. For example, an HTTP request can be sent from the client socket 120.1.1.1:3022 from to the server socket 189.1.1.1:80. Major advantages of a TCP socket connection is that packets dropped in the network are detected and retransmitted by the sender and data is read in the order it was written by the sender.
+
+9. What are some ways to make websites faster?
+    - 
 
 The following websites were used to gather questions as well as answer the provided questions:
 - https://procoders.tech/blog/back-end-engineer-interview-questions/
@@ -229,3 +336,13 @@ The following websites were used to gather questions as well as answer the provi
 - https://www.redhat.com/en/topics/api/what-is-a-rest-api
 - https://www.geeksforgeeks.org/acid-properties-in-dbms/
 - https://www.bmc.com/blogs/solid-design-principles
+- https://www.codementor.io/@zmitry/graph-data-structure-for-web-developers-10xf9a93hs
+- https://www.baeldung.com/cs/graphs
+- https://www.baeldung.com/cs/binary-trees-vs-linked-lists-vs-hash-tables
+- https://intellipaat.com/blog/tutorial/python-tutorial/python-tuple/
+- https://www.howtouselinux.com/post/tcp-socket
+- https://en.wikipedia.org/wiki/Regular_expression
+- https://ihateregex.io/expr/phone/
+- https://aws.amazon.com/caching/
+
+
