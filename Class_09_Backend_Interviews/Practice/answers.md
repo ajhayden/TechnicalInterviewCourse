@@ -184,35 +184,45 @@
 
 **Object Oriented Programming Questions**
 
-1. What is encapcilation? Give an example.
-    - 
+1. What is encapsulation? Give an example.
+    - Encapsulation refers to the capturing of data and methods that alter that data into a single unit. The primary example of encapsulation is a class. A class is a structure that holds data and methods to alter that data. Encapsulation allows one to hide data. Encapsulation also makes code easier to reuse. This principle can also refer to restricting direct access to certain components of an object.
+
 2. What is inheritance? Give an example.
-    - 
+    - Inheritance refers to one class inheriting the attributes and methods from another class. The original class is called the parent class and the class that inherits the parent classes properties is called the child class. For example, the car class could inherit from the vehical class or the cow class could inherit from the mammal class.
+
 3. What is abstraction? Give an example.
-    - 
+    - Abstraction refers to the principle of handling complexity by hiding unnecessary details from the user. 
+    Regarding object oriented programming, abstraction that hides the internal implementation details. For example, a developer would not see all the code behind the scenes for the python sort() function when they use it.
+
 4. What is polymorphism? Give an example.
-    - 
+    - Polymorphism refers to the concept that one can access objects of different types through the same interface. Each type can provide its own independent implementation of this interface. For example, one class name can be used to reference multiple kinds of subtypes at the same time. A developer could create the object class Animal and define multiple subtypes such as cow, dog, cat, and bear. They all have the property color and the method eat(). 
+
 5. What do you think makes object-oriented design the preferred approach?
     - 
 
 **Opinion Questions**
 1. What is difficult about writing code?
-    - 
+    - Writing code can be difficult because we often think faster than we can write code. Often when writing code one comes up with an overall solution but are unable to implement the solution because they do not break down the steps in a way for a computer to handle the problem.
+
 2. What programming languages do you like to work with and why?
-    - 
+    - I like working with Python because it is simple to read and write. The language has tons of libraries and extensions to help one accomplish their programming goals. The language also is great for creating web APIs with powerful frameworks such as Django and Flask.
+
 3. What is your approach to debugging?
-    - 
+    - First, I hopefully have logging set up, which can help me identify where my error is occuring. I will look at the error call stack to see what error is occuring and walk backwards through the call stack to find the general location of the error. Then I usually look at the code and determine what the code should be doing. After determining what the code should do I run through each line of code recording what is happening to find the error in the logic.
+
 4. What is your most challenging project?
-    - 
+    - The most challenging project I have encountered was figuring out how to reduce the time a deployment pipeline was taking to execute. I had to monitor and analyze the pipeline to find major bottle necks. Then, I had to research possible solutions to reduce the time. I ended up parallelizing both the linting and testing processes. I also added improvements to Jenkins to parallelize builds. The project was challenging because I needed to understand a major code base and some complicated code to correctly improve the deployment process. However, I was able to gain help from co-workers to overcome this challenge. There were also a lot of possible solutions, but I was able to overcome that challenge by thorough research and addtional communication with co-workers.
+
 5. Why would you use microservice architecture?
     - 
 6. What’s important when checking a team member’s code?
-    - 
+    - First of all, one should check their team member's code to ensure quality and reduce bugs, errors, and code smells. When checking a team member's code one should first make sure the logic is correct. They should ask their team member what the goal of the code is to ensure the logic is sound. Additionally, the reviewer should go through each line of code and look at the codes dependencies.  
 
 **Programming Questions**
 
 1. What is a class?
-    - 
+    - A class is an object oriented structure that holds data and methods to alter that data.
+
 2. What is a clousure?
     - 
 3. What do classes and closures have in common?
@@ -321,28 +331,29 @@
     - 
 
 The following websites were used to gather questions as well as answer the provided questions:
-- https://procoders.tech/blog/back-end-engineer-interview-questions/
-- https://www.jetbrains.com/teamcity/ci-cd-guide/ci-cd-best-practices/
+- https://procoders.tech/blog/back-end-engineer-interview-questions
+- https://www.jetbrains.com/teamcity/ci-cd-guide/ci-cd-best-practices
 - https://github.com/arialdomartini/Back-End-Developer-Interview-Questions
 - https://en.wikipedia.org/wiki/Cloud_computing
 - https://www.datastax.com/blog/sql-vs-nosql-whats-the-difference
 - https://www.w3schools.com/sql/sql_injection.asp
 - https://www.indeed.com/career-advice/interviewing/back-end-interview-questions
-- https://machinelearningmastery.com/large-data-files-machine-learning/
-- https://www.sqlshack.com/what-is-database-normalization-in-sql-server/
+- https://machinelearningmastery.com/large-data-files-machine-learning
+- https://www.sqlshack.com/what-is-database-normalization-in-sql-server
 - https://www.guru99.com/database-normalization.html
-- https://www.developer.com/database/10-ways-to-improve-sql-query-performance/
+- https://www.developer.com/database/10-ways-to-improve-sql-query-performance
 - https://en.wikipedia.org/wiki/Data_access_object
 - https://www.redhat.com/en/topics/api/what-is-a-rest-api
-- https://www.geeksforgeeks.org/acid-properties-in-dbms/
+- https://www.geeksforgeeks.org/acid-properties-in-dbms
 - https://www.bmc.com/blogs/solid-design-principles
 - https://www.codementor.io/@zmitry/graph-data-structure-for-web-developers-10xf9a93hs
 - https://www.baeldung.com/cs/graphs
 - https://www.baeldung.com/cs/binary-trees-vs-linked-lists-vs-hash-tables
-- https://intellipaat.com/blog/tutorial/python-tutorial/python-tuple/
+- https://intellipaat.com/blog/tutorial/python-tutorial/python-tuple
 - https://www.howtouselinux.com/post/tcp-socket
 - https://en.wikipedia.org/wiki/Regular_expression
-- https://ihateregex.io/expr/phone/
-- https://aws.amazon.com/caching/
-
-
+- https://ihateregex.io/expr/phone
+- https://aws.amazon.com/caching
+- https://www.sumologic.com/glossary/encapsulation
+- https://www.analyticsvidhya.com/blog/2020/10/inheritance-object-oriented-programming
+- https://stackify.com/oop-concept-abstraction
