@@ -135,7 +135,7 @@
 14. What is the difference between FIFO and LIFO?
     - FIFO stands for first in first out. A queue is an example of the FIFO principle. Elements are placed in a queue and the first element place in the queue is the next to be removed. LIFO stands for last in first out. A stack is an example of the LIFO principle. Elements are placed on the stack and the most recently placed element is the element next removed from a stack.
 
-15. What is and what are the benefits of using an queue? 
+15. What is and what are the benefits of using an queue?
     - 
 
 **Framework Questions**
@@ -147,16 +147,40 @@
     - DRY stands for Don't Repeat Yourself and DIE stands for Duplication is evil. In short, these two principles suggest that a developer should create efficient code that does not repeat itself.
 
 3. Name some best practices for RESTful API design?
-    - 
+    - Accept and respond with JSON
+    - Use nouns instead of verbs in endpoint paths
+    - Name collections with plural nouns
+    - Nesting resources for hierarchical objects
+    - Handle errors gracefully and return standard error codes
+    - Allow filtering, sorting, and pagination
+    - Maintain Good Security Practices
+    - Cache data to improve performance
+    - Version your API
 
 4. What is an MVC framework? Pros and cons?
-    - MVC stands for Model View Controller.
+    - MVC stands for Model View Controller. The Model is data, the View is the user interface, and the Controller is the business logic that bridges the View with the Model. 
+    - Pros:
+        - Development of the application becomes fast
+        - Easy for multiple developers to collaborate on the application
+        - Easy to update the application 
+        - Easy to debug as there are multiple isolated levels
+    - Cons:
+        - It is hard to understand the MVC architecture
+        - Must have strict rules on methods
 
 5. What is an MVVM framework? Pros and cons?
-    - 
+    - MVVM stands for Model View ViewModel. Like MVC, the View is the user interface and the Model is the data for the application. MVVM differs from MVC though in how it implements the connection between the Model and the View. The ViewModel contains commands the View can initiate to interact with the Model. The major difference between MVVM and MVC is that MVVM does not allow the View to have direct contact with the Model. 
+    - Pros:
+        - Provide less direct connection between View and Model
+        - Allows greater testability of view states
+        - Allows better maintenance of complex view
+    - Cons:
+        - Overhead of writing binding code
+        - Implementation can be more complex than MVC
+        - Increases overall cost for a simple application
 
 6. What is CAP theorem?
-    - 
+    - First, CAP stands for Consistency (all reads receive the most recent write), Availability (all reads contain data), Partition tolerance (system continues to operate despite network failures). However, the CAP theorem states that when a system hits a network faliure it can provide either consitency or availability, but not both. High consistency comes at the cost of lower availability and vise versa. One must make a choice when creating a system. 
 
 7. What does SOLID mean?
     - SOLID is a collection of five common software design principles. The acronym stands for Single Responsibility Property, Open-Closed Principle, Liskov Substitution Principle, Interface Segregation Principle, and Dependency Inversion Principle.
@@ -400,3 +424,7 @@ The following websites were used to gather questions as well as answer the provi
 - https://www.geeksforgeeks.org/benefit-of-using-mvc
 - https://betterprogramming.pub/what-is-a-singleton-2dc38ca08e92 
 - https://refactoring.guru/design-patterns
+- https://www.interserver.net/tips/kb/mvc-advantages-disadvantages-mvc
+- https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design
+- https://www.bmc.com/blogs/cap-theorem
+
