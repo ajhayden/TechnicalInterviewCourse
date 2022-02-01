@@ -219,26 +219,29 @@
         - Dependency Inversion Principle: This principle offers a way to decouple software modules. Developers should depend on abstractions (use of intefaces), not on concretions (direct use of classes).
 
 8. What is Agile development?
-    - 
+    - The agile development refers to a software development methodolgy, which focuses on iteration. Requirements and solutions are developed with each iteration of the project. The agile approach delivers value faster and the projects that utilize this methodology have a greater ability to respond to change.
 
 **Language Questions**
 
 1. How is Python interpreted?
-    - 
+    - Python is an interpreted language, which means the source code of a Python program is converted into bytecode that is then executed by the Python virtual machine.
+    
 2. How is C interpreted?
-    - 
+    - C is a compiled language, which means they are converted directly into machine code that the processor can execute.
+ 
 3. How is Java interpreted?
-    - 
+    - Java does both compilation and interpretation, In Java, programs are not compiled into executable files. They are compiled into bytecode, which the JVM (Java Virtual Machine) then interprets and executes at runtime.
+
 5. What is strong-typing and weak-typing? Which is preferred? Why?
-    - 
+    - Strongly typed languages do type checking such as C and Java. Weakly typed languages do not do type checking such as Javascript. Typed languages are often preferred because they protect against bugs and errors in a system.
 
 **Miscellaneous Questions**
 
 1. What is regex?
-    - Regex stands for regular expression. Regex is a sequence of characters that specifies a search pattern in text. The expression is used to match, locate, and adjust text. The following is a regex example that can be used to match a phone number: "^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$". 
+    - Regex stands for regular expression. Regex is a sequence of characters that specifies a search pattern in text. The expression is used to match, locate, and adjust text. The following is a regex example that can be used to match a phone number: ^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$. 
 
-2. What is the difference between git fetch and rebase and git pull?
-    - 
+2. What is the difference between git fetch and git rebase, and git pull?
+    - git fetch is a command that tells your local git to grab the latest meta-data info from the original. It does not do a file transfer, but checks for changes. git rebase changes the base of one's branch from one commit to another making it appear as if one had created your branch from a different commit. git pull copies changes from the remote repository.
 
 **Object Oriented Programming Questions**
 
@@ -256,7 +259,7 @@
     - Polymorphism refers to the concept that one can access objects of different types through the same interface. Each type can provide its own independent implementation of this interface. For example, one class name can be used to reference multiple kinds of subtypes at the same time. A developer could create the object class Animal and define multiple subtypes such as cow, dog, cat, and bear. They all have the property color and the method eat(). 
 
 5. What do you think makes object-oriented design the preferred approach?
-    - 
+    - There are several reasons that object-oriented design is desired. First, one can reuse code through inheritance. Also, the modularity of object-oriented design leads to easier testing. The design also simplifies the whole appliation by breaking it into manageable pieces.
 
 **Opinion Questions**
 1. What is difficult about writing code?
@@ -272,7 +275,7 @@
     - The most challenging project I have encountered was figuring out how to reduce the time a deployment pipeline was taking to execute. I had to monitor and analyze the pipeline to find major bottle necks. Then, I had to research possible solutions to reduce the time. I ended up parallelizing both the linting and testing processes. I also added improvements to Jenkins to parallelize builds. The project was challenging because I needed to understand a major code base and some complicated code to correctly improve the deployment process. However, I was able to gain help from co-workers to overcome this challenge. There were also a lot of possible solutions, but I was able to overcome that challenge by thorough research and addtional communication with co-workers.
 
 5. Why would you use microservice architecture?
-    - 
+    - Microservices allow for continuous delivery. Each service is isolated, which makes it significantly easier to upate and improve individual services. Likewise, microservices help maximize deployment velocity. In addition, each service is in its own container, which gives developers the ability to dynamically change each service. Each service can be written in the language that is ideal for it. Microservices are also easier to maintain compared to a monolithic application. Monolithic projects can also be expensive to maintain and microservices can be much cheaper.
 
 6. What’s important when checking a team member’s code?
     - First of all, one should check their team member's code to ensure quality and reduce bugs, errors, and code smells. When checking a team member's code one should first make sure the logic is correct. They should ask their team member what the goal of the code is to ensure the logic is sound. Additionally, the reviewer should go through each line of code and look at the codes dependencies.  
@@ -462,4 +465,8 @@ The following websites were used to gather questions as well as answer the provi
 - https://www.geeksforgeeks.org/merge-sort
 - https://www.geeksforgeeks.org/quick-sort
 - https://www.geeksforgeeks.org/difference-between-stack-and-array
-
+- https://www.quora.com/What-are-the-advantages-and-disadvantages-of-a-queue-and-a-circular-queue
+- https://www.cprime.com/resources/what-is-agile-what-is-scrum
+- https://stackoverflow.com/questions/1326071/is-java-a-compiled-or-an-interpreted-programming-language
+- https://www.roberthalf.com/blog/salaries-and-skills/4-advantages-of-object-oriented-programming
+- https://shadow-soft.com/why-microservice-architecture
