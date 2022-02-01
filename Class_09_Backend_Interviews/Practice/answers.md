@@ -115,28 +115,56 @@
             - O(log(n)) or O(1)
 
 5. What is and what are the benefits of using a dictionary?
-    - 
+    - A dictionary is a data structure used for storing a group of objects. A dictionary is a set of keys and their associated values. A dictionary is also called a hash, a map, or a hashmap depending on the language. Dictionaries are often extremely efficient in regards to accessing, searching, inserting, and deleting. They also are formatted in a readable way with key-value pairs.
+        - Access: O(1)
+        - Search: O(1)
+        - Insertion: O(1)
+        - Deletion O(1)
+
 6. What is and what are the benefits of using a linked list?
-    - 
-7. What is and what are the benefits of using a doubley linked list?
-    - 
+    - A linked list is a data structure that contains elements that are not stored at contiguous memory locations. The elements in a linked list are linked using pointers. A linked list consists of nodes. Each node contains a data value and a reference to the next node in the list. A linked list is a dynamic data structure that can shrink and grow at runtime. Linked lists efficiently use memory. They are also good for implementing a stack or a queue. Insertion and deletion are also extremely fast. However, linked lists use more memory than an array because you must store a pointer. They also take longer than an 
+        - Access: O(N)
+        - Search: O(N)
+        - Insertion: O(1)
+        - Deletion O(1)
+
+7. What is and what are the benefits of using a doubly linked list?
+    - A doubly linked list is a linked list that not only has a pointer to the next node, but also a pointer to the previous node. Doubly linked lists make reversing the linked list much easier. The traversal of the linked list is also bidirectional. However, it uses more memory than an array or a normal linked list.
+        - Access: O(N)
+        - Search: O(N)
+        - Insertion: O(1)
+        - Deletion O(1)
+
 8. What is and what are the benefits of using an array?
-    - 
+    - An array is a data structure that consists of a collection of elements, which are identified by an index. Arrays are easier to declare and use, can be used with most data types, and are useful for representing metrixs. However, depending on the language, an array may waste memory if all array elements are not used. Some arrays also can't accomodate new values. Arrays also are difficult to search because the entire array must be iterated through.
+        - Access: O(1)
+        - Search: O(N)
+        - Insertion: O(N)
+        - Deletion O(N)
+
 9. What is the difference between a breadth-first search and a depth-first search?
-    - 
+    - Breadth First Search is a vertex based technique for finding a shortest path in graph. It uses a Queue data structure which follows first in first out. One vertex is selected at a time when it is visited and marked then its adjacent vertexs are visited and stored in the queue. It is slower than Depth First Search. In short, Breadth First Search goes level by level in a tree.
+    - Depth First Search is a edge based technique. It uses the Stack data structure, performs two stages, first visited vertices are pushed into stack and second if there is no vertices then visited vertices are popped. In short, Depth First Search goes down the left side completely than back up to follow the same proceduce one path to its left until completed. 
+
 10. How does a merge sort work? What is its time complexity?
-    - 
+    - Merge Sort is a Divide and Conquer algorithm. It divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves. The merge() function is used for merging two halves.
+        - Time Complexity: O(NlogN)
+
 11. How does a quick sort work? What is its time complexity?
-    - 
-12. Define “stack” and “heap.” What is a stack overflow?
-    - 
+    - QuickSort is a Divide and Conquer algorithm. It picks an element as pivot and partitions the given array around the picked pivot. Target of partitions is, given an array and an element x of array as pivot, put x at its correct position in sorted array and put all smaller elements (smaller than x) before x, and put all greater elements (greater than x) after x. All this should be done in linear time.
+        - Time Complexity: O(NlogN)
+
+12. What is a stack overflow?
+    - A stack overflow occurs when a computer or processor memory also called a stack is filled more than its capacity. 
+
 13. How does an array differ from a stack?
-    - 
+    - Stacks are based on the LIFO principle whereas array is based on indexes. Stacks can insert at only at the top of the stack whereas arrays can be inserted at any index. Stacks are dynamic and arrays usually have a fixed size. A stack can only do linear search, but arrays can do linear and binary search. 
+
 14. What is the difference between FIFO and LIFO?
     - FIFO stands for first in first out. A queue is an example of the FIFO principle. Elements are placed in a queue and the first element place in the queue is the next to be removed. LIFO stands for last in first out. A stack is an example of the LIFO principle. Elements are placed on the stack and the most recently placed element is the element next removed from a stack.
 
 15. What is and what are the benefits of using an queue?
-    - 
+    - A queue is based on the FIFO so the element inserted at the first of the queue, is the first element to come off the queue. Queues are more flexible than an array. However, a queue can remove only elements from the beginning of the queue. 
 
 **Framework Questions**
 
@@ -427,4 +455,11 @@ The following websites were used to gather questions as well as answer the provi
 - https://www.interserver.net/tips/kb/mvc-advantages-disadvantages-mvc
 - https://stackoverflow.blog/2020/03/02/best-practices-for-rest-api-design
 - https://www.bmc.com/blogs/cap-theorem
+- https://en.wikibooks.org/wiki/A-level_Computing/AQA/Paper_1/Fundamentals_of_data_structures/Dictionaries
+- https://www.geeksforgeeks.org/advantages-and-disadvantages-of-linked-list
+- https://www.geeksforgeeks.org/advantages-disadvantages-and-uses-of-doubly-linked-list
+- https://dare2compete.com/blog/advantages-and-disadvantages-of-arrays
+- https://www.geeksforgeeks.org/merge-sort
+- https://www.geeksforgeeks.org/quick-sort
+- https://www.geeksforgeeks.org/difference-between-stack-and-array
 
