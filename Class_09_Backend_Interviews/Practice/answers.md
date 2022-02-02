@@ -285,36 +285,35 @@
 1. What is a class?
     - A class is an object oriented structure that holds data and methods to alter that data.
 
-2. What is a clousure?
-    - 
+2. What is a closure?
+    - A closure is a function that can be stored as a variable also known as a referred to as a "first-class function. A closure has special ability to access other variables local to the scope it was created in.
 
 3. What do classes and closures have in common?
-    - 
+    - Classes let you define fields and methods whereas closures store information about local variables from a function call. Closures is often more related to functional programming and classes are more related to object oriented programming.
 
 4. What is an interface?
-    - 
+    - An interface is a structure or design that allows a program to enforce rules onto a class. An interface is a roadmap for a class that it must follow. For instance, a car must could implement a vehicle and the vehicle interface could state that the car must have certain attributes such as four wheels.
 
-5. What is a tirnary function?
-    - 
+5. What is a ternary operator?
+    - A ternary operator or ternary function is a short cut if else statement in lanugages such as Javascript, Python, Swift, ect. This operator allows for convient conditional statements in varying situations.
 
 6. What is the difference between a function and a method?
-    - 
+    - Function is a set of instructions that perform a task where as a method is a set of instructions that are associated with an object.
 
 7. What is an anynomous function? Why are they useful?
-    - 
+    - An anonymous function is a one-line function with no attached name or identifier. The advantage of an anonymous function is that it does not have to be stored in a separate file. Anonymous functions reduces the number of code files necessary for an application.
 
 8. What is a callback function?
-    - 
+    - A callback function is a function passed into another function as an argument, which is then invoked inside the outer function to complete some kind of routine or action.
 
 9. What is functional programming?
-    - 
+    - Functional programming is a programming strategy that focuses on using function to run a program. It is a declarative programming structure where function definitions map values to other values. Functional programming does not focus on updating the running state of the program.
 
 10. What is a generic?
-    - 
+    - Generics mean parameterized types. The idea is to allow type (Integer, String, … etc, and user-defined types) to be a parameter to methods, classes, and interfaces. Using Generics, it is possible to create classes that work with different data types. An entity such as class, interface, or method that operates on a parameterized type is called a generic entity. For example, you create a linkedlist of integers, but instead of repeating the code for a linkedlist of strings you can use a generic to create a linkedlist that passes in a type upon creating the linkedlist.
 
 11. What is an abstract class?
-    - 
-
+    - In Java, an abstract class is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class). For example, an animal abstract class cannot be used to create an animal object, but a dog class could implement an animal class and that dog class could be used to make dog objects.
 
 **Software Design Questions**
 
@@ -470,3 +469,11 @@ The following websites were used to gather questions as well as answer the provi
 - https://stackoverflow.com/questions/1326071/is-java-a-compiled-or-an-interpreted-programming-language
 - https://www.roberthalf.com/blog/salaries-and-skills/4-advantages-of-object-oriented-programming
 - https://shadow-soft.com/why-microservice-architecture
+- https://stackoverflow.com/questions/3368713/whats-the-difference-between-closures-and-traditional-classes
+- https://www.cs.utah.edu/~germain/PPS/Topics/interfaces.html
+- https://www.codecademy.com/article/fwd-js-methods-functions
+- https://www.sciencedirect.com/topics/computer-science/anonymous-function
+- https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
+- https://en.wikipedia.org/wiki/Functional_programming
+- https://www.geeksforgeeks.org/generics-in-java
+- https://www.w3schools.com/java/java_abstract.asp
