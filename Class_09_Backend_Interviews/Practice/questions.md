@@ -24,7 +24,7 @@
 5. What does normalization mean in reference to datbases?
 6. How do you improve a database query?
 7. What is an ORM?
-8. What is DOA?
+8. What is DAO?
 9. What is the ACID property of a system?
 
 **Data Structure Questions**

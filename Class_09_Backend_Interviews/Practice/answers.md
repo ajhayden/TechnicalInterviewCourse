@@ -73,8 +73,8 @@
 7. What is an ORM?
     - ORM stands for Object Relational Mapping. An ORM convert incompatible data types. An ORM creates virtual objects. For example, MYSQL is transformed into an object that can be stored and altred in a programming language.
 
-8. What is DOA?
-    - DOA provides an abstract interface for a database. By mapping application calls by an additional layer, the DAO provides data operations without exposing details of the database.
+8. What is DAO?
+    - DAO (Data Access Object) provides an abstract interface for a database. By mapping application calls by an additional layer, the DAO provides data operations without exposing details of the database.
 
 9. What is the ACID property of a system?
     - ACID stands for atomicity, consistency, isolation, and durability. These principles are applied to databases and their transactions. Atomicity means that each transaction is a single unit that happens once or doesn't happen at all. Consistency means the database should be consistent before and after a transaction. Isolation means that multiple transactions can happen the same time on a database without changing the consistency of a database. Durability means the data of a database or stored and peristent after transactions.
