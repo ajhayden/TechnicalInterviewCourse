@@ -1,1 +1,0 @@
-# Class 12 - Guest Speaker
