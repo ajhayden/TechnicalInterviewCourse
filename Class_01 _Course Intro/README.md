@@ -1,3 +1,6 @@
+THINGS TO DO IN THIS SECTION:
+- Add a statement about how to progress through this course using the readmes, like general idea of content then assignment, and where each assignment is located.
+
 # Class 1 - Course Intro
 
 ## Why are we doing this course?

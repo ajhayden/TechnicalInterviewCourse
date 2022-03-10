@@ -1,3 +1,8 @@
+THINGS TO DO IN THIS SECTION:
+- Add code to practice Multiple Pointers, Sliding Window, and Divide and Conquer
+- Maybe add Youtube clips for those as well
+- Add references somewhere in here to the problems in the problem_solving_patterns and problem_solving_steps in this directory
+
 # Class 2 - Problem Solving Skills
 
 The following class will help students to understand best problem solving practices, so they can succeed in any technical interview they will face.
