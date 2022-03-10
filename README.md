@@ -1,6 +1,6 @@
 # TechnicalInterviewCourse
 
-This course is designed to help Information Systems prepare for technical interviews by learning key concepts, practicing coding challenges, and reviewing solutions. Although designed specifically to help Information Students this course can assist anyone striving to improve in their technical interview skills. This repository will help a
+This course is designed to help Information Systems prepare for technical interviews by learning key concepts, practicing coding challenges, and reviewing solutions. Although designed specifically to help Information Students this course can assist anyone striving to improve in their technical interviewing skills. This course is complete self-taught and provides all necessary links and practices to ensure its students success.
 
 The course contains the following content for the following classes:
 - Class 1: Course Introduction
