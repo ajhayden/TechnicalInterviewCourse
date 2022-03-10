@@ -16,16 +16,16 @@ Git Repository Onboarding
 - Use this class GitHub repository to access homework assignments and find class problems with solutions.
 - Go to https://github.com/ajhayden/TechnicalInterviewCourse 
     - Fork this repo (click the Fork icon in the top right hand corner)
-    - `git clone << your forked repo >>` Your forked repo link is found under the green code button
-    - cd TechnicalInterviewCourse
-    - git remote -v
-    - git remote add upstream https://github.com/ajhayden/TechnicalInterviewCourse.git
+    - `git clone << your forked repo >>` your forked repo link is found under the green code button
+    - `cd TechnicalInterviewCourse`
+    - `git remote -v`
+    - `git remote add upstream https://github.com/ajhayden/TechnicalInterviewCourse.git`
 - PULL
-    - git pull upstream main
+    - `git pull upstream main`
 - PUSH
-    - git add .
-    - git commit -m “Comment”
-    - git push origin main
+    - `git add .`
+    - `git commit -m “Comment”`
+    - `git push origin main`
 - Connecting to and setting up credentials for github
     - Go to “Settings”
     - Then “Developer settings”
