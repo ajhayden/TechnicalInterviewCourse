@@ -165,7 +165,7 @@ While solving coding challenges there are often patterns that are common amongst
         return true
     }
 
-    `same([1, 2, 3, 4], [9, 1, 4, 4])`
+    same([1, 2, 3, 4], [9, 1, 4, 4])
 
 #### Extra Frequency Counter Challenge
 - “Given two strings, write a function to determine if the second string is an anagram of the first. An anagram is a word, phrase, or name formed by rearranging the letters of another, such as cinema, formed from iceman.”
@@ -184,6 +184,6 @@ While solving coding challenges there are often patterns that are common amongst
 - Drastically reduces time complexity
 - Ex. binary search, quicksort, merge sort
 
-## Homework Assignment
+# Homework Assignment
 - Recursion Assignment
 - Find assignment under Class 03 -> Recursion Homework -> Recursion Description
