@@ -1,44 +1,44 @@
 # Class 1 - Course Intro
 
-Why are we doing this course?
+## Why are we doing this course?
 - Although Information Systems students have the skills for the daily needs of technical sofware engineering roles, they aren’t prepared for the technical interviews required land the job.
 - Students don’t know the specific skills needed to pass these interviews.
 - Students don’t feel adequately supported by the IS department in gaining these skills.
 - Students don’t know where to start in their preparation.
 - Students feel stress and anxiety due to the unknown nature of these interviews.
 
-### Course Outcomes
+## Course Outcomes
 - Students will learn principles to help them be successful in many types of technical interviews.
 - Students will clearly communicate their thought process and critically analyze their code.
 - Students will become more confident in their ability to perform in technical interviews.
 
-### Git Repository Onboarding
+## Git Repository Onboarding
 - Use this class GitHub repository to access homework assignments and find class problems with solutions.
 - Go to https://github.com/ajhayden/TechnicalInterviewCourse 
-    - Fork this repo (click the Fork icon in the top right hand corner)
-    - `git clone << your forked repo >>` your forked repo link is found under the green code button
-    - `cd TechnicalInterviewCourse`
-    - `git remote -v`
-    - `git remote add upstream https://github.com/ajhayden/TechnicalInterviewCourse.git`
-## PULL
-- `git pull upstream main`
-## PUSH
-- `git add .`
-- `git commit -m “Comment”`
-- `git push origin main`
-## Connecting to and setting up credentials for github
-- Go to “Settings”
-- Then “Developer settings”
-- Click “Personal Access Tokens”
-- Click “Generate new token”
-- Click all of the checkmarks for permission
-- Copy “token”
-- Save token in a safe space
-- Login to github using this token 
-## Caching credentials
+    1. Fork this repo (click the Fork icon in the top right hand corner)
+    2. `git clone << your forked repo >>` your forked repo link is found under the green code button
+    3. `cd TechnicalInterviewCourse`
+    4. `git remote -v`
+    5. `git remote add upstream https://github.com/ajhayden/TechnicalInterviewCourse.git`
+### PULL
+1. `git pull upstream main`
+### PUSH
+1. `git add .`
+2. `git commit -m “Comment”`
+3. `git push origin main`
+### Connecting to and setting up credentials for github
+1. Go to “Settings”
+2. Then “Developer settings”
+3. Click “Personal Access Tokens”
+4. Click “Generate new token”
+5. Click all of the checkmarks for permission
+6. Copy “token”
+7. Save token in a safe space
+8. Login to github using this token 
+### Caching credentials
 - Install gh
     - https://github.com/cli/cli#installation
 - gh auth login
-    - Select HTTPS
-    - Enter Y
-    - Add token
+    1. Select HTTPS
+    2. Enter Y
+    3. Add token
