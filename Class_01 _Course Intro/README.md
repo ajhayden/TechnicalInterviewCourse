@@ -13,19 +13,22 @@
 - Students will become more confident in their ability to perform in technical interviews.
 
 ## Git Repository Onboarding
-- Use this class GitHub repository to access homework assignments and find class problems with solutions.
-- Go to https://github.com/ajhayden/TechnicalInterviewCourse 
-    1. Fork this repo (click the Fork icon in the top right hand corner)
-    2. `git clone << your forked repo >>` your forked repo link is found under the green code button
-    3. `cd TechnicalInterviewCourse`
-    4. `git remote -v`
-    5. `git remote add upstream https://github.com/ajhayden/TechnicalInterviewCourse.git`
+Use this class GitHub repository to access homework assignments and find class problems with solutions.
+1. Go to https://github.com/ajhayden/TechnicalInterviewCourse 
+2. Fork this repo (click the Fork icon in the top right hand corner)
+3. `git clone << your forked repo >>` your forked repo link is found under the green code button
+4. `cd TechnicalInterviewCourse`
+5. `git remote -v`
+6. `git remote add upstream https://github.com/ajhayden/TechnicalInterviewCourse.git`
+
 ### PULL
 1. `git pull upstream main`
+
 ### PUSH
 1. `git add .`
 2. `git commit -m “Comment”`
 3. `git push origin main`
+
 ### Connecting to and setting up credentials for github
 1. Go to “Settings”
 2. Then “Developer settings”
@@ -35,10 +38,11 @@
 6. Copy “token”
 7. Save token in a safe space
 8. Login to github using this token 
+
 ### Caching credentials
-- Install gh
+1. Install gh
     - https://github.com/cli/cli#installation
-- gh auth login
-    1. Select HTTPS
-    2. Enter Y
-    3. Add token
+2. gh auth login
+3. Select HTTPS
+4. Enter Y
+5. Add token
