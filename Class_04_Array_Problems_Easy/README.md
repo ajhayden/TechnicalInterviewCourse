@@ -7,6 +7,15 @@
     - Fixed or flexible size
     - Resizing factor
 
+## Data Structures Big O Breakdown
+
+| | Access | Search | Insertion | Deletion |
+| --- | --- | --- | --- | --- |
+| Array | O(1) | O(N) | O(N) | O(N) |
+| Dictionary/Hash Table | O(1) | O(N) | O(1) | O(1) |
+| Linked List | O(N) | O(N) | O(1) | O(1) |
+| Binary Tree | O(log(N)) | O(log(N)) | O(log(N)) | O((log(N)) |
+
 ## Practice Problems
 Remember the following principles when you practice:
 1. Breathe
