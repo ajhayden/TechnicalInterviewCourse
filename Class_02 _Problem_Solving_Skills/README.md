@@ -191,4 +191,4 @@ While solving coding challenges there are often patterns that are common amongst
 
 # Homework Assignment
 - Recursion Assignment
-- Find assignment under Class 03 -> Recursion Homework -> Recursion Description
+- Find assignment under Class_03 -> Recursion_Homework -> Homework Description
