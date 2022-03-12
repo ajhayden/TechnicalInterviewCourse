@@ -59,7 +59,7 @@ Remember the following principles when you practice:
 7. Solve or simplify
 8. Look back and refactor/test
 
-### Additional Recursion Problems (Easy)
+### Recursion Problems (Easy)
 Problem 1
 - Write a function that reverses a string using recursion
 Problem 2
@@ -69,9 +69,13 @@ Problem 3
 Problem 4
 - Write a function that calculates the power of a number given a base number and exponent using recursion
 
-### Additional Recursion Problems (Medium)
+*An empty file to write code for these problems can be found under Class_03_Recursion -> Practice_Easy -> Problems. Additionally, solutions for each problem can be found under Class_03_Recursion -> Practice_Easy -> Solutions.*
+
+### Recursion Problems (Medium)
 Problem 1
 - Write a function that converts a decimal into binary
+
+*An empty file to write code for these problems can be found under Class_03_Recursion -> Practice_Medium -> Problems. Additionally, solutions for each problem can be found under Class_03_Recursion -> Practice_Medium -> Solutions.*
 
 # Homework Assignment
 - Array (Easy) Assignment
