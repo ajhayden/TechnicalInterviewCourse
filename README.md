@@ -14,7 +14,8 @@ The course contains content for the following classes:
 - Class 9: Dictionary Problems (Medium)
 - Class 10: Backend Interviews
 - Class 11: Linked List Problems (Easy)
-- Class 12: QuickSort
-- Class 13: Trees
-- Class 14: System Design Interviews
-- Class 15: Final and Reflection
+- Class 12: Linked List Problems (Medium)
+- Class 13: QuickSort
+- Class 14: Trees
+- Class 15: System Design Interviews
+- Class 16: Final and Reflection
