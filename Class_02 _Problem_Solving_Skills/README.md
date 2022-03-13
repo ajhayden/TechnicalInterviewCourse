@@ -1,8 +1,3 @@
-THINGS TO DO IN THIS SECTION:
-- Add code to practice Multiple Pointers, Sliding Window, and Divide and Conquer
-- Maybe add Youtube clips for those as well
-- Add references somewhere in here to the problems in the problem_solving_patterns and problem_solving_steps in this directory
-
 # Class 2 - Problem Solving Skills
 
 The following class will help students to understand best problem solving practices, so they can succeed in any technical interview they will face.
@@ -139,6 +134,7 @@ While solving coding challenges there are often patterns that are common amongst
 ### Frequency Counter
 - Use objects/sets to collect value frequencies
 - Avoids nested loops (O(N2) time complexity)
+- A video to help understand frequency counters: https://www.youtube.com/watch?v=UMC638x-9-M
 
 #### Practice Time
 - Try solving the following problem using a frequency counter
@@ -180,16 +176,105 @@ same([1, 2, 3, 4], [9, 1, 4, 4])
 ### Multiple Pointers
 - Create values/pointers to keep track of indices, and move them as needed until solution is found
 - SumZero example
+- A video to help understand multiple pointers: https://www.youtube.com/watch?v=OO6vFDpZItQ
+
+```javascript
+// uses multiple pointers
+// assumes sorted input
+function sumZero(arr) {
+    let left = 0
+    let right = arr.length - 1
+
+    while (left < right) {
+        let sum = arr[left] + arr[right];
+        if (sum === 0) {
+            return [arr[left], arr[right]]
+        } else if (sum > 0) {
+            right -= 1
+        } else {
+            left += 1
+        }
+    }
+}
+
+sumZero([-3, -2, -1, 0, 1, 2, 3]) // [-3, 3]
+```
 
 ### Sliding Window
 - Create a window to view data
 - Move the window depending on certain conditions
 - Useful for keeping track of data subset in string/array
+- A video to help understand sliding window: https://www.youtube.com/watch?v=qqXOZD4zKEg
+
+```python
+# code
+import sys
+print ("GFG")
+# O(n * k) solution for finding
+# maximum sum of a subarray of size k
+INT_MIN = -sys.maxsize - 1
+ 
+# Returns maximum sum in a
+# subarray of size k.
+def maxSum(arr, n, k):
+ 
+    # Initialize result
+    max_sum = INT_MIN
+ 
+    # Consider all blocks
+    # starting with i.
+    for i in range(n - k + 1):
+        current_sum = 0
+        for j in range(k):
+            current_sum = current_sum + arr[i + j]
+ 
+        # Update result if required.
+        max_sum = max(current_sum, max_sum)
+ 
+    return max_sum
+
+# Driver code
+arr = [1, 4, 2, 10, 2,
+       3, 1, 0, 20]
+k = 4
+n = len(arr)
+print(maxSum(arr, n, k))
+ 
+# This code is contributed by mits
+# https://www.geeksforgeeks.org/window-sliding-technique/
+```
 
 ### Divide and Conquer
 - Divide data into smaller chunks, then repeat with smaller pieces of data
 - Drastically reduces time complexity
 - Ex. binary search, quicksort, merge sort
+- - A video to help understand binary search: https://www.youtube.com/watch?v=DE-ye0t0oxE
+
+```python
+# Binary Search Example
+
+input_array = [1, 2, 5, 9, 12, 15, 21, 28, 99, 100, 117]
+input_target = 5
+# Output = 2
+
+def binary_search(nums, target):
+    lower_bound = 0
+    upper_bound = len(nums) - 1
+
+    while lower_bound <= upper_bound:
+        mid_point = (upper_bound + lower_bound) / 2
+
+        if nums[mid_point] == target:
+            return mid_point
+        else:
+            if nums[mid_point] < target:
+                lower_bound = mid_point + 1
+            else:
+                upper_bound = mid_point - 1
+    return -1
+        
+print(binary_search(input_array, input_target))
+```
 
 # Homework Assignment
 - Recursion Assignment
