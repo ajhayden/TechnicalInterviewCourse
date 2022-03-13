@@ -248,7 +248,7 @@ print(maxSum(arr, n, k))
 - Divide data into smaller chunks, then repeat with smaller pieces of data
 - Drastically reduces time complexity
 - Ex. binary search, quicksort, merge sort
-- - A video to help understand binary search: https://www.youtube.com/watch?v=DE-ye0t0oxE
+- A video to help understand binary search: https://www.youtube.com/watch?v=DE-ye0t0oxE
 
 ```python
 # Binary Search Example
