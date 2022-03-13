@@ -193,4 +193,4 @@ same([1, 2, 3, 4], [9, 1, 4, 4])
 
 # Homework Assignment
 - Recursion Assignment
-- Find assignment under Class_03_Recursion_Problems -> Recursion_Homework -> Homework Description
+- Find assignment under Class_03_Recursion_Problems -> Recursion_Homework -> README.md

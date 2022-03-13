@@ -60,4 +60,4 @@ Problem 10
 
 # Homework Assignment
 - Array (Easy) Assignment
-- Find assignment under Class_05_Array_Problems_Medium -> Array_Problems_Medium_Homework -> Homework Description
+- Find assignment under Class_05_Array_Problems_Medium -> Array_Problems_Medium_Homework -> README.md

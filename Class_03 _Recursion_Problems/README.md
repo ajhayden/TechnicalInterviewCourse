@@ -80,4 +80,4 @@ Problem 1
 
 # Homework Assignment
 - Array (Easy) Assignment
-- Find assignment under Class_04_Array_Problems_Easy -> Array_Problems_Easy_Homework -> Homework Description
+- Find assignment under Class_04_Array_Problems_Easy -> Array_Problems_Easy_Homework -> README.md
