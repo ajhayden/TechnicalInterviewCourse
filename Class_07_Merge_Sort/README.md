@@ -1,1 +1,1 @@
-# Class 6 - Frontend and Merge Sort
+# Class 7 - Merge Sort

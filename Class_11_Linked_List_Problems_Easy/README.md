@@ -1,1 +1,1 @@
-# Class 10 - Linked List Problems Easy
+# Class 11 - Linked List Problems Easy
