@@ -16,7 +16,7 @@ THINGS TO DO IN THIS SECTION:
 - Students will become more confident in their ability to perform in technical interviews.
 
 ## Progressing through the Course
-- The course is designed for you to complete an assignment before participating in the next class. As you progress through this course the README files will instruct you on course content and provide you with homework assignments. Homework assignments for each class will be found under "<Topic> Homework". For example, homework to complete before starting Class_03_Recursion_Problems will be found under Class_03_Recursion_Problems -> Recursion_Homework -> README.md
+- The course is designed for you to complete an assignment before participating in the next class. As you progress through this course the README files will instruct you on course content and provide you with homework assignments. Homework assignments for each class will be found under "< Topic > Homework". For example, homework to complete before starting Class_03_Recursion_Problems will be found under Class_03_Recursion_Problems -> Recursion_Homework -> README.md. *Note: The first two classes do not have homework assignments.*
 
 ## Git Repository Onboarding
 Use this class GitHub repository to access homework assignments and find class problems with solutions.
