@@ -58,4 +58,4 @@ Problem 6
 
 # Homework Assignment
 - Frontend Interviews Assignment
-- Find assignment under Class_05_Array_Problems_Medium -> Array_Problems_Medium_Homework -> Homework Description
+- Find assignment under Class_06_Frontend_Interviews -> Homework -> README.md

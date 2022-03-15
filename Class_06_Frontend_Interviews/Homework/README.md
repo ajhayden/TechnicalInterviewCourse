@@ -1,1 +1,1 @@
-# Frontend Interviews and Merge Sort Homework
+# Frontend Interviews Homework
