@@ -115,12 +115,8 @@ Input: `s = ‘paper’`, `t = ‘title’ // true`
 		
 *An empty file to write code for these problems can be found under Class_05_Array_Problems_Medium -> Practice_Medium -> Problems. Additionally, solutions for each problem can be found under Class_05_Array_Problems_Medium -> Practice_Medium -> Solutions.*
 
-# Homework Assignment
-- Dictionary Problems Easy Assignment
-- Find assignment under Class_08_Dictionary_Problems_Easy -> Homework -> README.md
-
 *An empty file to write code for these problems can be found under Class_08_Dictionary_Problems_Easy -> Practice -> Problems. Additionally, solutions for each problem can be found under Class_08_Dictionary_Problems_Easy -> Practice -> Solutions.*
 
 # Homework Assignment
-- Frontend Interviews Assignment
-- Find assignment under Class_06_Frontend_Interviews -> Homework -> README.md
+- Dictionary Problems (Medium) Assignment
+- Find assignment under Class_09_Dictionary_Problems_Medium -> Homework -> README.md

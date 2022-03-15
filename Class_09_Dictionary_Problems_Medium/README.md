@@ -75,10 +75,8 @@ print (Convert(tups, dictionary))
 ### Dictionary Problems (Medium)
 Problem 1
 - Write a program to reverse dictionary keys order
-
 Problem 2
 - Write a program to sort nested keys by value
-
 Problem 3
 - Write a program to remove duplicate values across dictionary values
 		
