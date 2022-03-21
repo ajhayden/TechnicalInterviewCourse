@@ -32,14 +32,18 @@
 2. Join nodes to get linked list
 3. Add required methods to LinkedList class
 
-
-
-
-### Dictionary Problems (Easy)
+### Linked List Problems (Easy)
 Problem 1
+- Write a program to remove duplicates from a sorted list
+Problem 2
+- Write a program to find the intersection of two linked lists
+Problem 3
+- Write a program to merge two sorted lists
+Problem 4
+- Write a program to delete N nodes after M nodes of a linked list
 
-*An empty file to write code for these problems can be found under Class_08_Dictionary_Problems_Easy -> Practice -> Problems. Additionally, solutions for each problem can be found under Class_08_Dictionary_Problems_Easy -> Practice -> Solutions.*
+*An empty file to write code for these problems can be found under Class_11_Linked_List_Problems_Easy -> Practice -> Problems. Additionally, solutions for each problem can be found under Class_11_Linked_List_Problems_Easy -> Practice -> Solutions.*
 
 # Homework Assignment
-- Frontend Interviews Assignment
-- Find assignment under Class_06_Frontend_Interviews -> Homework -> README.md
+- Linked List Problems (Medium)
+- Find assignment under Class_12_Linked_List_Problems_Medium -> Homework -> README.md
