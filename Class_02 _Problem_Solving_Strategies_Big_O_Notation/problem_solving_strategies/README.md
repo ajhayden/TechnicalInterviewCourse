@@ -2,6 +2,8 @@
 
 The following class will help students to understand best problem solving practices, so they can succeed in any technical interview they will face.
 
+[Problem Solving Skills Slides](https://docs.google.com/presentation/d/1KF1CUoAgkkPuiTK8u--x3UQYCsYADzc8Zs8rnST5Ea8/edit?usp=sharing)
+
 ## Basic Problem Solving Steps
 
 Technical interviews can be very different depending on the company or the interviewer. However, most if not all interviews require certain basic skills. The following list are common problem solving steps that would help any interviewee perform well in an interview.
@@ -99,7 +101,7 @@ You’re almost done!
 3. Base case and build
 4. Data structure brainstorm
 
-### Look for Bud
+### Look for BUD
 Look for the following in your solution/brute force
 - Bottlenecks
     - Your algorithm can’t be better than its worst Big O
