@@ -13,12 +13,14 @@ The course contains content for the following classes:
 - Class 8: Dictionary Problems (Easy)
 - Class 9: Dictionary Problems (Medium)
 - Class 10: Backend Interviews
-- Class 11: Linked List Problems (Easy)
-- Class 12: Linked List Problems (Medium)
-- Class 13: QuickSort
-- Class 14: Trees
+- Class 11: Midterm
+- Class 12: Linked List Problems (Easy)
+- Class 13: Linked List Problems (Medium)
+- Class 14: QuickSort
 - Class 15: System Design Interviews
-- Class 16: Final and Reflection
+- Class 16: Tree Problems
+- Class 17: Graph Problems
+- Class 18: Final
 
 ## Git Repository Onboarding
 Fork this repository to write code in homework assignment snippets and keep track of your progress.
