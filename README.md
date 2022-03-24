@@ -20,6 +20,23 @@ The course contains content for the following classes:
 - Class 15: System Design Interviews
 - Class 16: Final and Reflection
 
+## What to know before using this repo
+
+<!-- Edit for clarity and length lol -->
+### Who We Are
+- Katie Bankhead, Aaron Hayden, Kayla Pexton
+- 2nd-year MISM students at BYU
+- Felt unprepared for technical interviews during our time in the IS program
+- Created and taught a class on technical interview prep for our masters capstone project
+- The class likely won't be offered again anytime soon, so we wanted to convert our class repo into a resource that any IS student can use
+
+### Who You Are
+This class was designed for BYU IS students at a junior core level or greater who are interviewing for software engineering roles. We assume you're comfortable with basic programming concepts and data structures such as arrays and dictionaries. We assume you are not familiar with efficient sorting algorithms or data structures such as linked lists, trees, and graphs. 
+
+Most exercises are in Python or JavaScript, but practice coding problems in whatever language you know best.
+
+This course is not a comprehensive resource guaranteed to get you a job, but a guide to show you how to start and provide a foundation in the most essential concepts. We recommend mastering the content in this repo and continuing to learn tech interview skills depending on the role you want.
+
 ## Git Repository Onboarding
 Fork this repository to write code in homework assignment snippets and keep track of your progress.
 1. Go to https://github.com/ajhayden/TechnicalInterviewCourse 
