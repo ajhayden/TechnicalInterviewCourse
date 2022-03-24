@@ -3,22 +3,21 @@
 This course is designed to help Information Systems students prepare for technical interviews by learning key concepts, practicing coding challenges, and optimizing solutions. Although specifically targeted to Information Systems students, this course can assist anyone looking to improve in their technical interviewing skills. This course is complete self-taught and provides all necessary links and practices to gain a strong foundation.
 
 The course contains content for the following classes:
-- Class 1: Course Introduction
-- Class 2: Problem Solving Skills
-- Class 3: Recursion Problems
-- Class 4: Array Problems (Easy)
-- Class 5: Array Problems (Medium)
-- Class 6: Frontend Interviews
-- Class 7: Merge Sort
-- Class 8: Dictionary Problems (Easy)
-- Class 9: Dictionary Problems (Medium)
-- Class 10: Backend Interviews
-- Class 11: Linked List Problems (Easy)
-- Class 12: Linked List Problems (Medium)
-- Class 13: QuickSort
-- Class 14: Trees
-- Class 15: System Design Interviews
-- Class 16: Final and Reflection
+- Unit 1: Course Introduction
+- Unit 2: Problem Solving Strategies
+- Unit 3: Big O Notation
+- Unit 4: Recursion
+- Unit 5: Arrays
+- Unit 6: Dictionaries
+- Unit 7: Linked Lists
+- Unit 8: Midterm
+- Unit 9: Trees
+- Unit 10: Graphs
+- Unit 11: Sorting
+- Unit 12: Backend Interviews
+- Unit 13: Frontend Interviews
+- Unit 14: Systems Design Interviews
+- Unit 15: Final
 
 ## What to know before using this repo
 
