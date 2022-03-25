@@ -1,5 +1,6 @@
 # Class 14 - Tree Problems
 
+[Tree Problems Slides](https://docs.google.com/presentation/d/1z7NnDibIZ3642Jqt82pseoyZDgUem5-isjGoDrip1Qc/edit?usp=sharing)
 ## What is a tree?
 - What is a tree?
     - A type of graph

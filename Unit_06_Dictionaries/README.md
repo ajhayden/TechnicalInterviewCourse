@@ -1,5 +1,6 @@
 # Class 8 - Dictionary Problems (Easy)
 
+[Dictionary Problems (Easy) Slides](https://docs.google.com/presentation/d/1N3SCnSvPXMNTwi5uBi6LAAZnbkCdNLFOPL5k9Cpmb5M/edit?usp=sharing)
 ## Data Structures Big O Breakdown
 
 | | Access | Search | Insertion | Deletion |

@@ -1,5 +1,6 @@
 # Class 9 - Dictionary Problems (Medium)
 
+[Dictionary Problems (Medium) Slides](https://docs.google.com/presentation/d/16dELSSybPUuIt23023xl9Zjt340BntvApVPdf0S1WdE/edit?usp=sharing)
 ## Data Structures Big O Breakdown
 
 | | Access | Search | Insertion | Deletion |

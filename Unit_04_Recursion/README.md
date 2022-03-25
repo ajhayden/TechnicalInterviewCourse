@@ -1,5 +1,6 @@
 # Class 3 - Recursion
 
+[Recursion Slides](https://docs.google.com/presentation/d/1YBPDu-WAOE7IpuyMX98K8u3djWcQ9clh-tLCwKcEcEU/edit?usp=sharing)
 ## Understanding Recursion
 - Recursion is a method that calls itself and is conditioned on a parameter that if met the process will end
     - Base case: When would the process complete?

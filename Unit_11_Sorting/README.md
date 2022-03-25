@@ -1,5 +1,6 @@
 # Class 7 - Merge Sort
 
+[Merge Sort Slides](https://docs.google.com/presentation/d/1XHYuX-uzZd8BrUB2DWHT7H1X1lAN4I8nYsdF1C9NPmM/edit?usp=sharing)
 ## Merge Sort Details
 - Big O
     - Time complexity: O(nlogn)

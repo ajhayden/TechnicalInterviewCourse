@@ -1,5 +1,6 @@
 # Class 4 - Array Problems (Easy)
 
+[Array Problems (Easy) Slides](https://docs.google.com/presentation/d/1PX6IedLeZXRy1QNNnM5vgS9TZzgURxpkFh1OCNCcS10/edit?usp=sharing)
 ## Understanding Arrays
 - Contiguous memory
 - Language dependent

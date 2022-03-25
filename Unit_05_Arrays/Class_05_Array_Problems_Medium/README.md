@@ -1,5 +1,6 @@
 # Class 5 - Array Problems (Medium)
 
+[Array Problems (Medium) Slides](https://docs.google.com/presentation/d/1vWUZeqUQrarVPHtB2SFqsVy2yUVABQEwGlFCpygY79w/edit?usp=sharing)
 ## Understanding Arrays
 - Contiguous memory
 - Language dependent
