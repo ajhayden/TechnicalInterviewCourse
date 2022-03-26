@@ -1,6 +1,9 @@
-# Class 11 - Linked List Problems (Easy)
+# Class 11 - Linked List Problems
 
 [Linked List Problems (Easy) Slides](https://docs.google.com/presentation/d/1xx__d5uFAsPB1bcVqM1aXEvQ4VpM8nuIQQ4AUhBjZug/edit?usp=sharing)
+
+[Linked List Problems (Medium) Slides](https://docs.google.com/presentation/d/1wT0umrLk6RZj2NseQm1XK3ZvPCzOpNnaAd8yscJniGE/edit?usp=sharing)
+
 ## Data Structures Big O Breakdown
 
 | | Access | Search | Insertion | Deletion |
