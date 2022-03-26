@@ -56,8 +56,33 @@ Problem 9
 - Write a function that sorts 0s, 1s, and 2s
 Problem 10
 - Write a function that sorts a given array of numbers
+Problem 11
+- Write a program that uses binary search to find a given target number. The function should return the index of the target number if found
+Problem 12
+- Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum number in the sorted array. You may assume no duplicate exists in the array.
+    - input_array = `[3, 4, 5, 6, 1, 2]`
+    - output = `1`
+- Hint: use binary search
+Problem 13
+- Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the maximum number in the sorted array. You may assume no duplicate exists in the array.
+    - input_array = `[3, 4, 5, 6, 1, 2]`
+    - output = `6`
+- Hint: use binary search
+Problem 14
+- Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+    - input_array = `[-2, 1, -3, 4, -1, 2, 10, 1, -5, 4]`
+    - output = `16`
+Problem 15
+- Given an integer array nums, find the contiguous subarray (containing at least one number) which has the largest sum and return its sum.
+    - input_array = `[8, 2, -1, -2, -3, 2]`
+    - output = `32`
+Problem 16
+- Given an array nums of n integers where n > 1, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+- Note: Please solve it without division
+    - input_array = `[1, 2, 3, 4]`
+    - output = [`24, 12, 8, 6]`
 
-*An empty file to write code for these problems can be found under Class_04_Array_Problems_Easy -> Practice_Easy -> Problems. Additionally, solutions for each problem can be found under Class_04_Array_Problems_Easy -> Practice_Easy -> Solutions.*
+*An empty file to write code for these problems can be found under Class_05_Array_Problems -> Practice -> Problems. Additionally, solutions for each problem can be found under Class_05_Array_Problems -> Practice -> Solutions.*
 
 # Homework Assignment
 - Array (Easy) Assignment
