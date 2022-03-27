@@ -2,11 +2,14 @@
 
 ## Understanding Graphs
 - Graphs are representations of a set of objects where pairs are connected by links. The objects are called vertices and the links are called edges.
+- Neighbors are two vertices that are connected by an edge.
 - Undirected links are links that are bidirectional. For example, you can go from a to b or you can go from b to a.
 - Directed links are links that are one-directional. For example, you can only go from a to b or you can only go from b to a. 
 
-## Tips for Graphs
-- 
+## When to use Graphs?
+- Maps
+- Social networks
+    - Recommending friends based off of your friends friends
 
 ## Graph Problems
 Problem 1:
