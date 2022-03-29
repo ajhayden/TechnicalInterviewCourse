@@ -81,5 +81,5 @@ Problem 5
 *An empty file to write code for these problems can be found under Unit_03_Recursion -> Practice -> Problems. Additionally, solutions for each problem can be found under Unit_03_Recursion -> Practice -> Solutions.*
 
 # Homework Assignment
-- Arrays Assignment
+- Array Assignment
 - Find assignment under Unit_05_Arrays -> Homework -> README.md
