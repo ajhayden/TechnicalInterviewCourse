@@ -82,7 +82,7 @@ same([1, 2, 3, 4], [9, 1, 4, 4])
     - Output = 2
 
 - Problem 2: Given an array nums and an integer target, return the indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
-    - Input: nums = [2, 7, 11, 15]`, `target = 9
+    - Input: nums = [2, 7, 11, 15], target = 9
     - Output: [0, 1] (because nums[0] + nums[1]  == 9)
 
 - Problem 3: Given two sentences s1 and s2, return a list of all the uncommon words. You may return the answer in any order. A word is uncommon if it appears exactly once in one of the sentences, and does not appear in the other sentence.
@@ -128,8 +128,8 @@ Two Ways to Approach this problem
 - dict()
     - Converts tuple to corresponding dictionary
 
+#### First Approach
 ```python
-### First Approach
 # Python code to convert into dictionary
 
 def Convert(tup, di):
@@ -142,9 +142,8 @@ tups = [("A", 1), ("B", 2), ("C", 3)]
 dictionary = {}
 print (Convert(tups, dictionary))
 ```
-
+#### Second Approach
 ```python
-### Second Approach
 # Python code to convert into dictionary
 
 def Convert(tup, di):

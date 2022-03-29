@@ -46,8 +46,7 @@ Problem 3
 Problem 4
 - Write a program to delete N nodes after M nodes of a linked list
 
-*An empty file to write code for these problems can be found under Class_11_Linked_List_Problems_Easy -> Practice -> Problems. Additionally, solutions for each problem can be found under Class_11_Linked_List_Problems_Easy -> Practice -> Solutions.*
+*An empty file to write code for these problems can be found under Unit_07_Linked_Lists -> Practice -> Problems. Additionally, solutions for each problem can be found under Unit_07_Linked_Lists -> Practice -> Solutions.*
 
-# Homework Assignment
-- Linked List Problems (Medium)
-- Find assignment under Class_12_Linked_List_Problems_Medium -> Homework -> README.md
+# Midterm
+- When you are ready to start the midterm go to Unit_08_Midterm -> README.md
