@@ -67,16 +67,11 @@ Remember the following principles when you practice:
 8. Look back and refactor/test
 
 ### Recursion Problems
-Problem 1
-- Write a function that reverses a string using recursion
-Problem 2
-- Write a function that checks if a string is a palindrome using recursion
-Problem 3
-- Write a function that sums all natural numbers that lead up to a given value using recursion
-Problem 4
-- Write a function that calculates the power of a number given a base number and exponent using recursion
-Problem 5
-- Write a function that converts a decimal into binary
+- Problem 1: Write a function that reverses a string using recursion
+- Problem 2: Write a function that checks if a string is a palindrome using recursion
+- Problem 3: Write a function that sums all natural numbers that lead up to a given value using recursion
+- Problem 4: Write a function that calculates the power of a number given a base number and exponent using recursion
+- Problem 5: Write a function that converts a decimal into binary
 
 *An empty file to write code for these problems can be found under Unit_03_Recursion -> Practice -> Problems. Additionally, solutions for each problem can be found under Unit_03_Recursion -> Practice -> Solutions.*
 
