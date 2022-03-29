@@ -21,18 +21,15 @@ The course contains content for the following classes:
 
 ## What to know before using this repo
 
-<!-- Edit for clarity and length lol -->
 ### Who We Are
-- Katie Bankhead, Aaron Hayden, Kayla Pexton
-- 2nd-year MISM students at BYU
-- Felt unprepared for technical interviews during our time in the IS program
-- Created and taught a class on technical interview prep for our masters capstone project
-- The class likely won't be offered again anytime soon, so we wanted to convert our class repo into a resource that any IS student can use
+We are 2nd-year MISM students at BYU. When pursuing internships and full time jobs in software engineering, we felt unprepared for the technical interviews we faced and didn't know where to begin as IS students.
+
+For our masters capstone project, we designed and taught a class on technical interview prep, specifically tailored to IS students. While the class was only offered for one semester, we've converted our class repo into a resource for any IS student to use (or anyone with a background outside of computer science).
 
 ### Who You Are
 This class was designed for BYU IS students at a junior core level or greater who are interviewing for software engineering roles. We assume you're comfortable with basic programming concepts and data structures such as arrays and dictionaries. We assume you are not familiar with efficient sorting algorithms or data structures such as linked lists, trees, and graphs. 
 
-Most exercises are in Python or JavaScript, but practice coding problems in whatever language you know best.
+Most exercises are in Python or JavaScript, but practice the coding problems in whatever language you know best.
 
 This course is not a comprehensive resource guaranteed to get you a job, but a guide to show you how to start and provide a foundation in the most essential concepts. We recommend mastering the content in this repo and continuing to learn tech interview skills depending on the role you want.
 
