@@ -6,7 +6,7 @@ The following class will help students to understand best problem solving practi
 
 ## Basic Problem Solving Steps
 
-Technical interviews can be very different depending on the company or the interviewer. However, most if not all interviews require certain basic skills. The following list are common problem solving steps that would help any interviewee perform well in an interview.
+Technical interviews can be very different depending on the company or the interviewer. However, most if not all interviews require certain basic skills. The following list are common problem solving steps that would help an interviewee perform well in an interview.
 
 1. Breathe
 2. Listen to understand
@@ -18,34 +18,33 @@ Technical interviews can be very different depending on the company or the inter
 8. Look back and refactor/test
 
 ### 1. Breathe
-Remember:
 - You don’t need to find the perfect answer
-- Communicate!
+- **Communicate**
 - The interviewers are there to help you
 - Don’t give up
 
 ### 2. Listen to understand
 - Make sure you hear everything correctly
-- Listen for unique information. Everything is important (ex. Is an input array sorted or unsorted?)
+- Listen for unique information. Everything is important. Example: Is an input array sorted or unsorted?
 - Write down relevant information
 - Get all the pieces ready for you to problem solve
 
 #### Practice Time
-- Take some time right now to perform practice steps 1-2 with the following problem
-- “Write a function which takes two numbers and returns their sum.”
+- Take some time right now to perform practice steps 1-2 with the following problem:
+    - “Write a function which takes two numbers and returns their sum.”
 - Don't move forward until you have completed this practice
 
 ### 3. Use examples
-Ask questions!
-- Does the code need to compile?
-- Should I assume valid input?
-- Can I restate the problem in my own words?
-- What are the inputs/outputs? (ex. Data types, error handling, etc.)
-- How should I label the important pieces of data? (ex. Variable names)
+- Ask questions
+    - Does the code need to compile?
+    - Should I assume valid input?
+    - Can I restate the problem in my own words?
+    - What are the inputs/outputs? Example: Data types, error handling, etc.
+    - How should I label the important pieces of data? Example: Variable names
 
 #### Practice Time
-- Take some time right now to perform practice step 3 with the following problem
-- “Write a function which takes a string and returns the count of characters in the string.”
+- Take some time right now to perform practice step 3 with the following problem:
+    - “Write a function which takes a string and returns the count of characters in the string.”
 - Don't move forward until you have completed this practice
 
 #### Possible Answers
@@ -55,7 +54,7 @@ Ask questions!
 - Input: "I'm good!" -> Output: 8
 
 ### 4. State a brute force solution
-- Brute force solution: solves the problem, but not efficiently
+- Brute force solution (solves the problem, but not efficiently)
 - This doesn’t need to be good
 - Explain weaknesses
 - Benefits
@@ -87,7 +86,6 @@ How can you improve the brute force solution?
 - If you get confused, that’s normal! Walk through your example
 
 ### 8. Look back and refactor/test
-You’re almost done!
 - Is the result correct (including edge cases)?
 - Can you derive the result differently?
 - Is your code easy to understand at a glance?
@@ -102,7 +100,7 @@ You’re almost done!
 4. Data structure brainstorm
 
 ### Look for BUD
-Look for the following in your solution/brute force
+Look for the following principles in your solution/brute force:
 - Bottlenecks
     - Your algorithm can’t be better than its worst Big O
 - Unnecessary work
@@ -136,11 +134,11 @@ While solving coding challenges there are often patterns that are common amongst
 ### Frequency Counter
 - Use objects/sets to collect value frequencies
 - Avoids nested loops (O(N2) time complexity)
-- A video to help understand frequency counters: https://www.youtube.com/watch?v=UMC638x-9-M
+- Here is a video to help understand frequency counters: https://www.youtube.com/watch?v=UMC638x-9-M
 
 #### Practice Time
 - Try solving the following problem using a frequency counter
-- “Write a function called same, which accepts two arrays. The function should return true if every value in the array has its corresponding value squared in the second array. The frequency of values must be the same.”
+    - “Write a function called same, which accepts two arrays. The function should return true if every value in the array has its corresponding value squared in the second array. The frequency of values must be the same.”
 - Don't move forward until you have completed this practice
 
 #### Practice Solution
@@ -173,12 +171,12 @@ same([1, 2, 3, 4], [9, 1, 4, 4])
 ```
 
 #### Extra Frequency Counter Challenge
-- “Given two strings, write a function to determine if the second string is an anagram of the first. An anagram is a word, phrase, or name formed by rearranging the letters of another, such as cinema, formed from iceman.”
+- “Given two strings, write a function to determine if the second string is an anagram of the first. An anagram is a word, phrase, or name formed by rearranging the letters of another, such as **cinema**, formed from **iceman**.”
 
 ### Multiple Pointers
 - Create values/pointers to keep track of indices, and move them as needed until solution is found
 - SumZero example
-- A video to help understand multiple pointers: https://www.youtube.com/watch?v=OO6vFDpZItQ
+- Here is a video to help understand multiple pointers: https://www.youtube.com/watch?v=OO6vFDpZItQ
 
 ```javascript
 // uses multiple pointers
@@ -206,7 +204,7 @@ sumZero([-3, -2, -1, 0, 1, 2, 3]) // [-3, 3]
 - Create a window to view data
 - Move the window depending on certain conditions
 - Useful for keeping track of data subset in string/array
-- A video to help understand sliding window: https://www.youtube.com/watch?v=qqXOZD4zKEg
+- Here is a video to help understand sliding window: https://www.youtube.com/watch?v=qqXOZD4zKEg
 
 ```python
 # code
@@ -249,8 +247,8 @@ print(maxSum(arr, n, k))
 ### Divide and Conquer
 - Divide data into smaller chunks, then repeat with smaller pieces of data
 - Drastically reduces time complexity
-- Ex. binary search, quicksort, merge sort
-- A video to help understand binary search: https://www.youtube.com/watch?v=DE-ye0t0oxE
+- Example: binary search, quicksort, merge sort
+- Here is a video to help understand binary search: https://www.youtube.com/watch?v=DE-ye0t0oxE
 
 ```python
 # Binary Search Example
@@ -277,7 +275,3 @@ def binary_search(nums, target):
         
 print(binary_search(input_array, input_target))
 ```
-
-# Homework Assignment
-- Recursion Assignment
-- Find assignment under Class_03_Recursion_Problems -> Recursion_Homework -> README.md
