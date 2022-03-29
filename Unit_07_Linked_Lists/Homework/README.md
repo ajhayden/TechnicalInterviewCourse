@@ -1,13 +1,9 @@
-# Linked List (Easy) Homework
-
+# Linked List Assignment
 - Watch the following video and follow along with the code: https://www.youtube.com/watch?v=njTh_OwMljA
-
 - Look at this article at the different languages using a linked list: https://www.geeksforgeeks.org/linked-list-set-1-introduction/
     - Which language makes the most sense to you?
     - We will be using Python in class
-
 - For this homework, you'll review the linked list reverse() function and add the remove() function to the code found under Class_12_Linked_List_Problems_Medium -> Homework -> python_linked_list.py.
-
 - Reverse:
     - Watch this video to visualize using pointers to reverse a linked list: https://www.youtube.com/watch?v=D7y_hoT_YZI
     - Then, practice drawing the reversing process on a piece of paper. (Tip: use a small linked list of 3-4 nodes so it doesn't take you too long)

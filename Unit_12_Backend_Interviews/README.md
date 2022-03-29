@@ -1,4 +1,4 @@
-# Class 10 - Backend Interviews
+# Class 12 - Backend Interviews
 
 ## Backend Interview Principles and Tips
 - Ensure you understand the question

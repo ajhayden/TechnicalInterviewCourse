@@ -1,4 +1,4 @@
-# Unit 5 - Array Problems
+# Unit 5 - Arrays
 
 [Array Problems (Easy) Slides](https://docs.google.com/presentation/d/1PX6IedLeZXRy1QNNnM5vgS9TZzgURxpkFh1OCNCcS10/edit?usp=sharing)
 

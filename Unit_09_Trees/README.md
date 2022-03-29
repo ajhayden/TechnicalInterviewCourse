@@ -1,4 +1,4 @@
-# Class 14 - Tree Problems
+# Unit 9 - Trees
 
 [Tree Problems Slides](https://docs.google.com/presentation/d/1z7NnDibIZ3642Jqt82pseoyZDgUem5-isjGoDrip1Qc/edit?usp=sharing)
 

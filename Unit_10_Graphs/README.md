@@ -1,4 +1,4 @@
-# Graph Problems
+# Unit 10 - Graphs
 
 ## Understanding Graphs
 - Graphs are representations of a set of objects where pairs are connected by links. The objects are called vertices and the links are called edges.

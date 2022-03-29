@@ -1,4 +1,4 @@
-# Class 6 - Dictionary Problems (Easy)
+# Unit 6 - Dictionaries
 
 [Dictionary Problems (Easy) Slides](https://docs.google.com/presentation/d/1N3SCnSvPXMNTwi5uBi6LAAZnbkCdNLFOPL5k9Cpmb5M/edit?usp=sharing)
 

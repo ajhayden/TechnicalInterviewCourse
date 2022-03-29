@@ -1,4 +1,4 @@
-# Class 11 - Linked List Problems
+# Unit 7 - Linked Lists
 
 [Linked List Problems (Easy) Slides](https://docs.google.com/presentation/d/1xx__d5uFAsPB1bcVqM1aXEvQ4VpM8nuIQQ4AUhBjZug/edit?usp=sharing)
 
@@ -36,15 +36,11 @@
 2. Join nodes to get linked list
 3. Add required methods to LinkedList class
 
-### Linked List Problems (Easy)
-Problem 1
-- Write a program to remove duplicates from a sorted list
-Problem 2
-- Write a program to find the intersection of two linked lists
-Problem 3
-- Write a program to merge two sorted lists
-Problem 4
-- Write a program to delete N nodes after M nodes of a linked list
+### Linked List Problems
+- Problem 1: Write a program to remove duplicates from a sorted list
+- Problem 2: Write a program to find the intersection of two linked lists
+- Problem 3: Write a program to merge two sorted lists
+- Problem 4: Write a program to delete N nodes after M nodes of a linked list
 
 *An empty file to write code for these problems can be found under Unit_07_Linked_Lists -> Practice -> Problems. Additionally, solutions for each problem can be found under Unit_07_Linked_Lists -> Practice -> Solutions.*
 

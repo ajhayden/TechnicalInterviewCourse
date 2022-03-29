@@ -1,4 +1,4 @@
-# Tree Problems Assignment
+# Tree Assignment
 - Watch the following video about trees:
     - https://www.youtube.com/watch?v=oSWTXtMglKE
 - Answer the following question: 

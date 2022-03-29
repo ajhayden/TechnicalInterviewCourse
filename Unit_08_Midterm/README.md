@@ -1,4 +1,4 @@
-# Midterm
+# Unit 8 - Midterm
 - This exam consists of 3 questions on recursion, arrays, and dictionaries. Do your best to answer the questions with your own knowledge, but feel free to google resources/concepts/language docs/etc. to assist as needed. 
     - You may NOT google exact solutions for a problem. 
     - Please vocally explain your thought process just like you would in a real interview.

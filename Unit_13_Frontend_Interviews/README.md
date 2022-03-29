@@ -1,4 +1,4 @@
-# Class 6 - Frontend Interviews
+# Unit 13 - Frontend Interviews
 
 ## What makes frontend interviews different?
 - Less supply and demand
