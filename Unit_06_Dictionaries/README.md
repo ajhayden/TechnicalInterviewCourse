@@ -17,7 +17,7 @@
 - Store key/value pairs
 - Commonly used because of their speed
 - When to use
-    - “Map values”
+    - *Map values*
     - Keeping track of counts
     - Tracking differences between arrays and strings
 
@@ -41,7 +41,7 @@
 
 ### Practice Time
 - Try solving the following problem using a frequency counter
-- “Write a function called same, which accepts two arrays. The function should return true if every value in the array has its corresponding value squared in the second array. The frequency of values must be the same.”
+    - “Write a function called same, which accepts two arrays. The function should return true if every value in the array has its corresponding value squared in the second array. The frequency of values must be the same.”
 - Don't move forward until you have completed this practice
 
 ### Practice Solution
@@ -73,44 +73,34 @@ function same(arr1, arr2) {
 same([1, 2, 3, 4], [9, 1, 4, 4])
 ```
 
-### Dictionary Problems (Easy)
-Problem 1
-- Given an array nums of size n, return the majority element. The majority element is an element that appears more than [n/2] times.
+### Dictionary Problems
+- Problem 1: Given an array nums of size n, return the majority element. The majority element is an element that appears more than [n/2] times.
+    - Input = [3, 2, 3]
+    - Output = 3
 
-`Input = [3, 2, 3]`
-`Output = 3`
+    - Input = [2, 2, 1, 1, 1, 2, 2]
+    - Output = 2
 
-`Input = [2, 2, 1, 1, 1, 2, 2]`
-`Output = 2`
+- Problem 2: Given an array nums and an integer target, return the indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
+    - Input: nums = [2, 7, 11, 15]`, `target = 9
+    - Output: [0, 1] (because nums[0] + nums[1]  == 9)
 
-Problem 2
-- Given an array nums and an integer target, return the indices of the two numbers such that they add up to target.
-- You may assume that each input would have exactly one solution, and you may not use the same element twice.
-- You can return the answer in any order.
+- Problem 3: Given two sentences s1 and s2, return a list of all the uncommon words. You may return the answer in any order. A word is uncommon if it appears exactly once in one of the sentences, and does not appear in the other sentence.
+    - Input: s1 = “this apple is sweet”, s2 = “this apple is sour”
+    - Output: [“sweet”, “sour”]
 
-Input: `nums = [2, 7, 11, 15]`, `target = 9`
-Output: `[0, 1]` (because `nums[0] + nums[1]  == 9`)
+    - Input: s1 = “apple apple”, s2 = “banana”
+    - Output: [“banana”]
 
-Problem 3
-- Given two sentences s1 and s2, return a list of all the uncommon words. You may return the answer in any order.
-- A word is uncommon if it appears exactly once in one of the sentences, and does not appear in the other sentence.
+- Problem 4: Given a Roman numeral, convert it to an integer.
+    - Input = “III”
+    - Output = 3
 
-Input: `s1 = “this apple is sweet”`, `s2 = “this apple is sour”`
-Output: `[“sweet”, “sour”]`
-Input: `s1 = “apple apple”`, `s2 = “banana”`
-Output: `[“banana”]`
+    - Input = “LVIII”
+    - Output = 58
 
-Problem 4
-- Given a Roman numeral, convert it to an integer.
-
-`Input = “III”`
-`Output = 3`
-
-`Input = “LVIII”`
-`Output = 58`
-
-`Input = “MCMXCIV”`
-`Output = 1994`
+    - Input = “MCMXCIV”
+    - Output = 1994
 
 | Symbol | Value |
 | --- | --- |
@@ -122,22 +112,17 @@ Problem 4
 | D | 500 |
 | M | 1000 |
 
-Problem 5
-- Given two strings s and t, determine if they are isomorphic.
-- s and t are isomorphic if the characters in s can be replaced to get t.
-- All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.
-
-Input: `s = ‘egg’`, `t = ‘add’ // true`
-Input: `s = ‘foo’`, `t = ‘bar’ // false`
-Input: `s = ‘paper’`, `t = ‘title’ // true`
+- Problem 5: Given two strings s and t, determine if they are isomorphic. s and t are isomorphic if the characters in s can be replaced to get t. All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.
+    - Input: s = ‘egg’, t = ‘add’ // true
+    - Input: s = ‘foo’, t = ‘bar’ // false
+    - Input: s = ‘paper’, t = ‘title’ // true
 
 ### Practice Time
 - Write a program to convert a list of tuples into dictionary
-
-Example input: `[('A', 1), ('B', 2), ('C', 3)]`
+    - Example input: [('A', 1), ('B', 2), ('C', 3)]
 
 ### Practice Solution
-Two Ways to Approach
+Two Ways to Approach this problem
 - setdefault() 
     - turns the first parameter into the key and the second into the value of the dictionary
 - dict()
@@ -180,15 +165,12 @@ print (Convert(tups, dictionary))
     - Tuples are: immutable and faster. Uses ()
 
 ### Additional Dictionary Problems
-Problem 1
-- Write a program to reverse dictionary keys order
-Problem 2
-- Write a program to sort nested keys by value
-Problem 3
-- Write a program to remove duplicate values across dictionary values	
+- Problem 1: Write a program to reverse dictionary keys order
+- Problem 2: Write a program to sort nested keys by value
+- Problem 3: Write a program to remove duplicate values across dictionary values	
 		
-*An empty file to write code for these problems can be found under Class_06_Dictionary_Problems -> Practice -> Problems. Additionally, solutions for each problem can be found under Class_06_Dictionary_Problems -> Practice -> Solutions.*
+*An empty file to write code for these problems can be found under Unit_06_Dictionaries -> Practice -> Problems. Additionally, solutions for each problem can be found under Unit_06_Dictionaries -> Practice -> Solutions.*
 
 # Homework Assignment
-- Backend Interview Assignment
-- Find assignment under Class_07_Linked_Lists -> Homework -> README.md
+- Linked List Assignment
+- Find assignment under Unit_07_Linked_Lists -> Homework -> README.md

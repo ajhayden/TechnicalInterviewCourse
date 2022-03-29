@@ -69,4 +69,4 @@ Remember the following principles when you practice:
 
 # Homework Assignment
 - Dictionary Assignment
-- Find assignment under Unit_05_Dictionaries -> Homework -> README.md
+- Find assignment under Unit_06_Dictionaries -> Homework -> README.md
