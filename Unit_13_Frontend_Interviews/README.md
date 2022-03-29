@@ -28,5 +28,5 @@
 - Learn React/Vue/Angular and Typescript
 
 # Homework Assignment
-- Merge Sort Assignment
-- Find assignment under Class_07_Merge_Sort -> Homework -> README.md
+- Systems Design Interviews
+- Find assignment under Unit_14_Systems_Design_Interviews -> Homework -> README.md

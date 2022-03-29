@@ -1,1 +1,1 @@
-# Class 10 - Graph Problems
+# Graph Problems

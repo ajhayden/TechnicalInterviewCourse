@@ -4,3 +4,4 @@
     - Please vocally explain your thought process just like you would in a real interview.
     - You have 1 hour and 30 minutes to complete this exam.
 - The problems can be found under the Unit_08_Midterm -> Problems
+- The solutions can be found under the Unit_08_Midterm -> Solutions

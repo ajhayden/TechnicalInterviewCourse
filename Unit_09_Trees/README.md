@@ -1,6 +1,7 @@
 # Class 14 - Tree Problems
 
 [Tree Problems Slides](https://docs.google.com/presentation/d/1z7NnDibIZ3642Jqt82pseoyZDgUem5-isjGoDrip1Qc/edit?usp=sharing)
+
 ## What is a tree?
 - What is a tree?
     - A type of graph
@@ -40,19 +41,15 @@
 - Visualgo.net
 
 ## Practice Problems
-Problem 1
-- Given the root node and a value, insert the value into a binary search tree.
-Problem 2
-- Given the root node and a value, find the value in a binary search tree.
-Problem 3
-- Given a binary tree, print each node using in-order traversal. (left, root, right)
-Problem 4
-- Remove a given node from a binary search tree.
-Problem 5
-- Given a binary tree, return the node with the greatest value.
-Problem 6
-- Given a sorted (increasing order) array with unique integer elements, write an algorithm to create a binary search tree with minimal height.
+- Problem 1: Given the root node and a value, insert the value into a binary search tree.
+- Problem 2: Given the root node and a value, find the value in a binary search tree.
+- Problem 3: Given a binary tree, print each node using in-order traversal. (left, root, right)
+- Problem 4: Remove a given node from a binary search tree.
+- Problem 5: Given a binary tree, return the node with the greatest value.
+- Problem 6: Given a sorted (increasing order) array with unique integer elements, write an algorithm to create a binary search tree with minimal height.
+
+*An empty file to write code for these problems can be found under Unit_09_Trees -> Practice -> Problems. Additionally, solutions for each problem can be found under Unit_09_Trees -> Practice -> Solutions.*
 
 # Homework Assignment
-- System Design Interviews
-- Find assignment under Class_15_Systems_Design_Interviews -> Homework -> README.md
+- Graphs Assignment
+- Find assignment under Unit_10_Graphs -> Homework -> README.md

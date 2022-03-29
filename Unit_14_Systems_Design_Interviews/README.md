@@ -28,15 +28,11 @@
     - Database
 
 ## Additional Problems
-Problem 1
-- Explain a scenario where you would use a web application? Give examples why.
-Problem 2
-- Explain a scenario where you would use a locally installed application? Give examples why.
-Problem 3
-- How would you design a search engine?
+- Problem 1: Explain a scenario where you would use a web application? Give examples why.
+- Problem 2: Explain a scenario where you would use a locally installed application? Give examples why.
+- Problem 3: How would you design a search engine?
 
-*An empty file to write code for these problems can be found under Class_16_Graphs_Problems -> Practice -> Problems. Additionally, solutions for each problem can be found under Class_11_Linked_List_Problems_Easy -> Practice -> Solutions.*
+*An empty file to write code for these problems can be found under Unit_14_Systems_Design_Interviews -> Practice -> Problems. Additionally, solutions for each problem can be found under Unit_14_Systems_Design_Interviews -> Practice -> Solutions.*
 
-# Homework Assignment
-- Linked List Problems (Medium)
-- Find assignment under Class_12_Linked_List_Problems_Medium -> Homework -> README.md
+# Final
+- When you are ready to start the midterm go to Unit_15_Final -> README.md

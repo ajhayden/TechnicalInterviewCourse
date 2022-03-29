@@ -1,1 +1,1 @@
-# Frontend Interviews Homework
+# Frontend Interviews Assignment

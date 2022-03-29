@@ -48,8 +48,8 @@ Some questions are less concrete, but more opinionated. You can use the STAR fra
 - Question 3: What is an adapter design pattern? Give an example of when to use this principle.
 - Question 4: What are some ways to make websites faster?
 
-*A list of over 100 backend conceptual questions including these questions can be found under Class_10_Backend_Interviews -> Practice -> questions.md. Additionally, solutions for each question can be found under Class_10_Backend_Interviews -> Practice -> answers.md*
+*A list of over 100 backend conceptual questions including these questions can be found under Unit_12_Backend_Interviews -> Practice -> questions.md. Additionally, solutions for each question can be found under Unit_12_Backend_Interviews -> Practice -> answers.md*
 
 # Homework Assignment
-- Linked List Problems (Easy)
-- Find assignment under Class_11_Linked_List_Problems_Easy -> Homework -> README.md
+- Frontend Interview Assignment
+- Find assignment under Unit_13_Frontend_Interviews -> Homework -> README.md
