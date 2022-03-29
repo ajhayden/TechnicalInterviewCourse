@@ -193,4 +193,4 @@ function binarySearch(array, item) {
 
 # Homework Assignment
 - Recursion Assignment
-- Find assignment under Unit_03_Recursion_Problems -> Homework -> README.md
+- Find assignment under Unit_03_Recursion -> Homework -> README.md
