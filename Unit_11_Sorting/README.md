@@ -1,6 +1,8 @@
 # Unit 11 - Sorting
 
-[Merge Sort Slides](https://docs.google.com/presentation/d/1XHYuX-uzZd8BrUB2DWHT7H1X1lAN4I8nYsdF1C9NPmM/edit?usp=sharing)
+[QuickSort Slides](https://docs.google.com/presentation/d/1XHYuX-uzZd8BrUB2DWHT7H1X1lAN4I8nYsdF1C9NPmM/edit?usp=sharing)
+
+[Merge Sort Slides](https://docs.google.com/presentation/d/1HRDWzBykxUXynxpuM19Ggt0THNdSl7XJiRmnkbRl6e4/edit?usp=sharing)
 
 ## QuickSort
 
