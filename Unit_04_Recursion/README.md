@@ -1,4 +1,4 @@
-# Class 3 - Recursion
+# Unit 4 - Recursion
 
 [Recursion Slides](https://docs.google.com/presentation/d/1YBPDu-WAOE7IpuyMX98K8u3djWcQ9clh-tLCwKcEcEU/edit?usp=sharing)
 ## Understanding Recursion

@@ -1,4 +1,4 @@
-# Class 2 - Problem Solving Strategies
+# Unit 2 - Problem Solving Strategies
 
 The following class will help students to understand best problem solving practices, so they can succeed in any technical interview they will face.
 

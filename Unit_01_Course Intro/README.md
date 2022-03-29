@@ -1,4 +1,4 @@
-# Class 1 - Course Intro
+# Unit 1 - Course Intro
 
 ## Why are we doing this course?
 - Although Information Systems students have the skills for the daily needs of technical sofware engineering roles, they aren’t prepared for the technical interviews required to land the job.

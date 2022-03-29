@@ -1,4 +1,4 @@
-# Class 2 - Big O Notation
+# Unit 3 - Big O Notation
 
 Big O Notation is a foundational skill you need to know! You'll use it in almost everything else in this course.
 
