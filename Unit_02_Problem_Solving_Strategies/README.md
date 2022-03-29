@@ -275,3 +275,7 @@ def binary_search(nums, target):
         
 print(binary_search(input_array, input_target))
 ```
+
+# Homework Assignment
+- Big O Notation Assignment
+- Find assignment under Unit_03_Big_O_Notation -> Homework -> README.md

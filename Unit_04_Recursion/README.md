@@ -9,20 +9,25 @@
 ### Practice Time
 Recursion Practice
 - Write a program that creates the value in the fibonacci sequence given n
-    - 1, 1, 2, 3, **5**, 8, 13, 21, 34
+    - 1, 1, 2, 3, 5, 8, 13, 21, 34
 
 ### Practice Solution
-    def find_fib(n):
-        if n == 0 or n==1:
-            return n
-        else:
-            return find_fib(n - 1) + find_fib(n - 2)
+```python
+def find_fib(n):
+    if n == 0 or n==1:
+        return n
+    else:
+        return find_fib(n - 1) + find_fib(n - 2)
+```
 
 ## The Call Stack
-Explain what a call stack is
+A call stack is a stack data structure that stores information about the active subroutines of a computer program.
 
 ### Practice Time
 On a piece of paper create the call stack for the fibonacci sequence
+
+#### Solution
+![fibonacci sequence call stack"](fibonacci_sequence_call_stack.jpeg)
 
 ## Solving Recursion Big O
 - O (branches^depth)
@@ -30,7 +35,6 @@ On a piece of paper create the call stack for the fibonacci sequence
         - O(2^n)
 
 ## Iterative Approach
-Notice the code is more complex and less elegant
 ```python
 def find_fibonacci_sequence(n):
     if (n == 0):
@@ -49,6 +53,7 @@ def find_fibonacci_sequence(n):
     else:
         return -1
 ```
+Notice the code is more complex and less elegant
 
 ## Practice Problems
 Remember the following principles when you practice:
@@ -61,7 +66,7 @@ Remember the following principles when you practice:
 7. Solve or simplify
 8. Look back and refactor/test
 
-### Recursion Problems (Easy)
+### Recursion Problems
 Problem 1
 - Write a function that reverses a string using recursion
 Problem 2
@@ -70,15 +75,11 @@ Problem 3
 - Write a function that sums all natural numbers that lead up to a given value using recursion
 Problem 4
 - Write a function that calculates the power of a number given a base number and exponent using recursion
-
-*An empty file to write code for these problems can be found under Class_03_Recursion -> Practice_Easy -> Problems. Additionally, solutions for each problem can be found under Class_03_Recursion -> Practice_Easy -> Solutions.*
-
-### Recursion Problems (Medium)
-Problem 1
+Problem 5
 - Write a function that converts a decimal into binary
 
-*An empty file to write code for these problems can be found under Class_03_Recursion -> Practice_Medium -> Problems. Additionally, solutions for each problem can be found under Class_03_Recursion -> Practice_Medium -> Solutions.*
+*An empty file to write code for these problems can be found under Unit_03_Recursion -> Practice -> Problems. Additionally, solutions for each problem can be found under Unit_03_Recursion -> Practice -> Solutions.*
 
 # Homework Assignment
-- Array (Easy) Assignment
-- Find assignment under Class_04_Array_Problems_Easy -> Array_Problems_Easy_Homework -> README.md
+- Arrays Assignment
+- Find assignment under Unit_05_Arrays -> Homework -> README.md
