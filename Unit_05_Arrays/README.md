@@ -2,6 +2,8 @@
 
 [Array Problems (Easy) Slides](https://docs.google.com/presentation/d/1PX6IedLeZXRy1QNNnM5vgS9TZzgURxpkFh1OCNCcS10/edit?usp=sharing)
 
+[Array Problems (Medium) Slides](https://docs.google.com/presentation/d/1vWUZeqUQrarVPHtB2SFqsVy2yUVABQEwGlFCpygY79w/edit?usp=sharing)
+
 ## Understanding Arrays
 - Contiguous memory
 - Language dependent
