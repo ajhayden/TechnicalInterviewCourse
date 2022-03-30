@@ -19,7 +19,7 @@ Technical interviews can be very different depending on the company or the inter
 
 ### 1. Breathe
 - You don’t need to find the perfect answer
-- **Communicate**
+- Communicate
 - The interviewers are there to help you
 - Don’t give up
 
