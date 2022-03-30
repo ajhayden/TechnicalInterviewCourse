@@ -14,3 +14,8 @@
 
 ## Progressing through the Course
 - The course is designed for you to complete an assignment before participating in the next unit. As you progress through this course the README files will instruct you on course content and provide you with homework assignments. Homework assignments for each unit will be found under the "Homework" sub-directory. For example, homework to complete before starting Unit_03_Recursion_Problems will be found under Unit_03_Recursion_Problems -> Homework -> README.md. *Note: The first two units do not have homework assignments.*
+
+## In This Unit
+- Industry Advice: Interview tips from industry professionals
+- Peer Advice: Lessons learned and interview advice from BYU IS students
+- Other Resources: Suggestions for books, courses, practice problems, etc. to continue your learning
