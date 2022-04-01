@@ -1,12 +1,14 @@
 # Unit 2 - Problem Solving Strategies
 
-The following class will help students to understand best problem solving practices, so they can succeed in any technical interview they will face.
+Technical interviews vary depending on the company or the interviewer. However, most interviews are structured similarly and test similar skills. The following steps, problem solving skills, and patterns will help you do your best in any interview. Make sure to apply these concepts as you continue through the rest of the course.
 
-[Problem Solving Skills Slides](https://docs.google.com/presentation/d/1KF1CUoAgkkPuiTK8u--x3UQYCsYADzc8Zs8rnST5Ea8/edit?usp=sharing)
+[Problem Solving Strategies Slides](https://docs.google.com/presentation/d/1KF1CUoAgkkPuiTK8u--x3UQYCsYADzc8Zs8rnST5Ea8/edit?usp=sharing)
 
 ## Basic Problem Solving Steps
 
-Technical interviews can be very different depending on the company or the interviewer. However, most if not all interviews require certain basic skills. The following list are common problem solving steps that would help an interviewee perform well in an interview.
+*Adapted from* Cracking the Coding Interview *and Colt Steele's Udemy course (see [Other Resources](https://github.com/ajhayden/TechnicalInterviewCourse/blob/main/Unit_01_Course_Intro_and_Resources/OtherResources.md))*
+
+When given a problem, follow these steps to clearly structure your solution and showcase what you know.
 
 1. Breathe
 2. Listen to understand
@@ -30,9 +32,9 @@ Technical interviews can be very different depending on the company or the inter
 - Get all the pieces ready for you to problem solve
 
 #### Practice Time
-- Take some time right now to perform practice steps 1-2 with the following problem:
-    - “Write a function which takes two numbers and returns their sum.”
-- Don't move forward until you have completed this practice
+- Practice step 2 with the following problem: “Write a function which takes two numbers and returns their sum.”
+- Don't move forward until you have completed this practice.
+- View [potential solution](https://github.com/ajhayden/TechnicalInterviewCourse/blob/main/Unit_02_Problem_Solving_Strategies/problem_solving_steps/listenToUnderstand.js).
 
 ### 3. Use examples
 - Ask questions
@@ -43,13 +45,13 @@ Technical interviews can be very different depending on the company or the inter
     - How should I label the important pieces of data? Example: Variable names
 
 #### Practice Time
-- Take some time right now to perform practice step 3 with the following problem:
-    - “Write a function which takes a string and returns the count of characters in the string.”
-- Don't move forward until you have completed this practice
+- Practice step 3 with the following problem: “Write a function which takes a string and returns the count of characters in the string.”
+- Don't move forward until you have completed this practice.
+- View [potential solution](https://github.com/ajhayden/TechnicalInterviewCourse/blob/main/Unit_02_Problem_Solving_Strategies/problem_solving_steps/charCount.js) (see comments next to console.log statements at the end of the file).
 
 #### Possible Answers
 - Questions to ask prior to creating examples:
-    - What is considered a character? Do spaces count? Do punctuations count?
+    - What is considered a character? Do spaces count? Do punctuations count? Should uppercase and lowercase characters be counted separately?
 - Input: "How are you today?" -> Output: 15
 - Input: "I'm good!" -> Output: 8
 
@@ -93,13 +95,18 @@ How can you improve the brute force solution?
 - Can you think of other ways to refactor?
 - How have other people solved this problem?
 
-## Optimization Techniques
+## Problem Solving Techniques
+You will inevitably get stuck at some point in your problem solving. This is normal! Do what you can to get unstuck. The following techniques can help you further optimize your solution or identify common patterns found in many interview problems when you aren't sure where to go next.
+
+### Optimization Techniques
+Source: *Cracking the Coding Interview*
+
 1. Look for BUD
 2. DIY
 3. Base case and build
 4. Data structure brainstorm
 
-### Look for BUD
+#### Look for BUD
 Look for the following principles in your solution/brute force:
 - Bottlenecks
     - Your algorithm can’t be better than its worst Big O
@@ -107,25 +114,28 @@ Look for the following principles in your solution/brute force:
     - Extra processing that can be eliminated
 - Duplicated work
 
-### DIY
+#### DIY
 - Forget about the code
 - How would you solve it manually?
 
-### Base Case and Build
+#### Base Case and Build
 - What is a base case?
 - Solve the problem for a base case
     - Helps you understand the problem in a simpler state
 - Use the pattern you find to extrapolate
 - Useful for recursive problems
 
-### Data Structure Brainstorm
+#### Data Structure Brainstorm
 - Think through all the data structures you know
 - Consider pros and cons of each one
 - Benefits
     - Can help you get unstuck with a solution you didn’t previously think of 
 
 ## Patterns
-While solving coding challenges there are often patterns that are common amongst problems. Know these common patterns and look for them in your technical interviews.
+Source: Colt Steele's *JavaScript Algorithms and Data Structures Masterclass*
+
+There are several patterns that are commonly found in interview questions. By understanding these patterns, you'll be able to identify them in real interviews and solve problems quickly and efficiently.
+
 1. Frequency counter
 2. Multiple pointers
 3. Sliding window
@@ -172,10 +182,11 @@ same([1, 2, 3, 4], [9, 1, 4, 4])
 
 #### Extra Frequency Counter Challenge
 - “Given two strings, write a function to determine if the second string is an anagram of the first. An anagram is a word, phrase, or name formed by rearranging the letters of another, such as **cinema**, formed from **iceman**.”
+- View [potential solution](https://github.com/ajhayden/TechnicalInterviewCourse/blob/main/Unit_02_Problem_Solving_Strategies/problem_solving_patterns/frequencyCounterAnagram.js).
 
 ### Multiple Pointers
 - Create values/pointers to keep track of indices, and move them as needed until solution is found
-- SumZero example
+- [SumZero example](https://github.com/ajhayden/TechnicalInterviewCourse/blob/main/Unit_02_Problem_Solving_Strategies/problem_solving_patterns/multiplePointersSumZero.js)
 - Here is a video to help understand multiple pointers: https://www.youtube.com/watch?v=OO6vFDpZItQ
 
 ```javascript
@@ -275,7 +286,3 @@ def binary_search(nums, target):
         
 print(binary_search(input_array, input_target))
 ```
-
-# Homework Assignment
-- Big O Notation Assignment
-- Find assignment under Unit_03_Big_O_Notation -> Homework -> README.md
