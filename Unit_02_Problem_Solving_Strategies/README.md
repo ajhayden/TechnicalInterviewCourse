@@ -131,7 +131,7 @@ Look for the following principles in your solution/brute force:
 - Benefits
     - Can help you get unstuck with a solution you didn’t previously think of 
 
-## Patterns
+### Patterns
 Source: Colt Steele's *JavaScript Algorithms and Data Structures Masterclass*
 
 There are several patterns that are commonly found in interview questions. By understanding these patterns, you'll be able to identify them in real interviews and solve problems quickly and efficiently.
@@ -141,17 +141,17 @@ There are several patterns that are commonly found in interview questions. By un
 3. Sliding window
 4. Divide and conquer
 
-### Frequency Counter
+#### Frequency Counter
 - Use objects/sets to collect value frequencies
 - Avoids nested loops (O(N2) time complexity)
 - Here is a video to help understand frequency counters: https://www.youtube.com/watch?v=UMC638x-9-M
 
-#### Practice Time
+##### Practice Time
 - Try solving the following problem using a frequency counter
     - “Write a function called same, which accepts two arrays. The function should return true if every value in the array has its corresponding value squared in the second array. The frequency of values must be the same.”
 - Don't move forward until you have completed this practice
 
-#### Practice Solution
+##### Practice Solution
 
 ```javascript
 function same(arr1, arr2) {
@@ -180,11 +180,11 @@ function same(arr1, arr2) {
 same([1, 2, 3, 4], [9, 1, 4, 4])
 ```
 
-#### Extra Frequency Counter Challenge
+##### Extra Frequency Counter Challenge
 - “Given two strings, write a function to determine if the second string is an anagram of the first. An anagram is a word, phrase, or name formed by rearranging the letters of another, such as **cinema**, formed from **iceman**.”
 - View [potential solution](https://github.com/ajhayden/TechnicalInterviewCourse/blob/main/Unit_02_Problem_Solving_Strategies/problem_solving_patterns/frequencyCounterAnagram.js).
 
-### Multiple Pointers
+#### Multiple Pointers
 - Create values/pointers to keep track of indices, and move them as needed until solution is found
 - [SumZero example](https://github.com/ajhayden/TechnicalInterviewCourse/blob/main/Unit_02_Problem_Solving_Strategies/problem_solving_patterns/multiplePointersSumZero.js)
 - Here is a video to help understand multiple pointers: https://www.youtube.com/watch?v=OO6vFDpZItQ
@@ -211,7 +211,7 @@ function sumZero(arr) {
 sumZero([-3, -2, -1, 0, 1, 2, 3]) // [-3, 3]
 ```
 
-### Sliding Window
+#### Sliding Window
 - Create a window to view data
 - Move the window depending on certain conditions
 - Useful for keeping track of data subset in string/array
@@ -255,7 +255,7 @@ print(maxSum(arr, n, k))
 # https://www.geeksforgeeks.org/window-sliding-technique/
 ```
 
-### Divide and Conquer
+#### Divide and Conquer
 - Divide data into smaller chunks, then repeat with smaller pieces of data
 - Drastically reduces time complexity
 - Example: binary search, quicksort, merge sort
