@@ -1,17 +1,18 @@
 # Unit 3 - Big O Notation
 
-Big O Notation is a foundational skill you need to know! You'll use it in almost everything else in this course.
+Big O Notation is a foundational skill you need to know! You'll use it in almost everything else in this course. Make sure you keep it in mind as you practice problems, and be prepared to talk about Big O in every technical interview you have.
 
 [Big O Slides](https://docs.google.com/presentation/d/1IJgX7KZNcxY4Azlu3HbtLK5ZFQkk5ZJoIcNDhgqT2Rs/edit?usp=sharing)
 
 ## What is Big O? (and why should you care?)
-- Describes algorithm efficiency based on input size
-- Time vs. space complexity
-- Efficient code == good code
+Big O describes algorithm efficiency based on input size. We want to write good code (in interviews and in general). Good code is efficient code. Write algorithms with a good Big O value.
+
+- [Gayle Laakman McDowell explains Big O Notation](https://www.youtube.com/watch?v=v4cd1O4zkGw)
+- When you evaluate Big O, think of how the speed of your algorithm will change when its inputs are very large (∞)
 - Helps you judge your own solutions and speak intelligently about tradeoffs
-- Worst case scenario
+- Focuses on the worst case scenario (we're talking infinitely large inputs here)
 - General, simplified math
-- When you evaluate Big O, think of how speed will change when the inputs are very large (∞)
+- Time vs. space complexity: Time complexity refers the speed of the algorithm. Space complexity refers to the amount of memory taken up by the algorithm.
 
 ![big o complexity chart"](big-o-complexity-chart.jpeg)
 
@@ -28,7 +29,7 @@ function printArray(array) {
 
 ### Solution
 - O(1) - constant time
-- Input size does not change runtime. The loop will always run 100 times
+- Input size does not change runtime. The loop will always run 100 times, no matter how big the input gets.
 
 ## Example 2
 - What is the Big O of this algorithm?
@@ -43,7 +44,7 @@ function printString(array) {
 
 ### Solution
 - O(N) - linear time
-- Runtime increases linearly with the array’s size
+- Runtime increases linearly with the array’s size. If the input array is 1 million items long, the loop will run 1 million times.
 
 ## Example 3
 - What is the time complexity (Big O) of this algorithm?
@@ -60,11 +61,8 @@ function printPairs(array) {
 
 ### Solution
 - O(N2) - quadratic time
-- Nested for loop => multiply
+- Nested `for` loop => multiply
 - O(N * N) => O(N2)
-
-## Additional Resources
-[HackerRank video](https://www.youtube.com/watch?v=v4cd1O4zkGw)
 
 ## Rules of Big O
 1. Different steps get added
@@ -140,8 +138,8 @@ function printUnorderedPairs(array) {
 
 ### Solution
 - O(ab)
-- There are multiple inputs, and both matter
-- Use variable names intentionally
+- There are multiple inputs, and both matter. We can't combine them into O(N*N)
+- Use variable names intentionally. Make sure to keep distinct inputs separate!
 
 ## Practice 4
 - What is the time complexity (Big O) of this algorithm?
@@ -160,6 +158,7 @@ function reverse(array) {
 ### Solution
 - O(N) - linear time
 - O(N/2) => O(N)
+- This has a coefficent of 1/2, which we drop (Big O rule #2)
 
 ## Practice 5
 - What is the time complexity (Big O) of this algorithm?
