@@ -6,9 +6,9 @@
 
 ## Understanding Arrays
 - Contiguous memory
-- Language dependent
-    - Name (aka lists)
-    - Fixed or flexible size
+- Some details are language dependent
+    - Name (aka lists in some languages)
+    - Fixed vs. flexible size
     - Resizing factor
 
 ## Data Structures Big O Breakdown
@@ -32,6 +32,8 @@ Remember the following principles when you practice:
 8. Look back and refactor/test
 
 ### Array Problems
+
+#### Easy Level
 - Problem 1: Write a function that finds the minimum and maximum in an array 
 - Problem 2: Write a function that reverses an array in place
 - Problem 3: Write a function that finds the missing number in an array
@@ -47,6 +49,8 @@ Remember the following principles when you practice:
 - Problem 8: Write a function that finds common elements in three sorted arrays
 - Problem 9: Write a function that sorts 0s, 1s, and 2s
 - Problem 10: Write a function that sorts a given array of numbers
+
+#### Medium Level
 - Problem 11: Write a program that uses binary search to find a given target number. The function should return the index of the target number if found
 - Problem 12: Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum number in the sorted array. You may assume no duplicate exists in the array.
     - input_array = [3, 4, 5, 6, 1, 2]
