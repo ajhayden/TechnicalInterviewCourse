@@ -23,7 +23,7 @@
     - Next: contains reference to next node on the list
 
 ## Linked Lists Visual
-![singly linked list image](linkedList.png)
+![singly linked list image](linkedList.png)  
 The first node is called the `head`, and it’s used as the starting point for any iteration through the list. The last node must have its `next` reference pointing to `None` to determine the end of the list
 
 ## When to use Linked Lists vs. Array
