@@ -38,7 +38,7 @@
     - Pre-order: prints root first
     - ost-order: prints root last
 - Applies to all types of trees
-- Visualgo.net
+- [visualgo.net](https://visualgo.net/) has great visualizations for tree functions
 
 ## Practice Problems
 - Problem 1: Given the root node and a value, insert the value into a binary search tree.
