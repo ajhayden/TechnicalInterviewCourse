@@ -15,9 +15,9 @@
 
 ## More on Hash Tables
 - Store key/value pairs
-- Commonly used because of their speed
+- Commonly used because of their speed (note the constant Big O for access, insertion, and deletion)
 - When to use
-    - *Map values*
+    - When the words "map values" are in a prompt
     - Keeping track of counts
     - Tracking differences between arrays and strings
 
@@ -30,14 +30,10 @@
 - Quick access is needed
 - When memory is available
 
-## How to avoid for-loops?
-- List Comprehension / Generator Expression
-- Functions
-- itertools
-
 ## Frequency Counter
+- Common way to use dictionaries to solve problems
 - Use objects/sets to collect value frequencies
-- Avoids nested loops (O(N2) time complexity)
+- Why you should use it: avoids nested loops (O(N2) time complexity)
 
 ### Practice Time
 - Try solving the following problem using a frequency counter
@@ -73,7 +69,7 @@ function same(arr1, arr2) {
 same([1, 2, 3, 4], [9, 1, 4, 4])
 ```
 
-### Dictionary Problems
+## Dictionary Problems
 - Problem 1: Given an array nums of size n, return the majority element. The majority element is an element that appears more than [n/2] times.
     - Input = [3, 2, 3]
     - Output = 3
@@ -102,71 +98,25 @@ same([1, 2, 3, 4], [9, 1, 4, 4])
     - Input = “MCMXCIV”
     - Output = 1994
 
-| Symbol | Value |
-| --- | --- |
-| I | 1 |
-| V | 5 |
-| X | 10 |
-| L | 50 |
-| C | 100 |
-| D | 500 |
-| M | 1000 |
+    | Symbol | Value |
+    | --- | --- |
+    | I | 1 |
+    | V | 5 |
+    | X | 10 |
+    | L | 50 |
+    | C | 100 |
+    | D | 500 |
+    | M | 1000 |
 
 - Problem 5: Given two strings s and t, determine if they are isomorphic. s and t are isomorphic if the characters in s can be replaced to get t. All occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.
     - Input: s = ‘egg’, t = ‘add’ // true
     - Input: s = ‘foo’, t = ‘bar’ // false
     - Input: s = ‘paper’, t = ‘title’ // true
 
-### Practice Time
-- Write a program to convert a list of tuples into dictionary
-    - Example input: [('A', 1), ('B', 2), ('C', 3)]
-
-### Practice Solution
-Two Ways to Approach this problem
-- setdefault() 
-    - turns the first parameter into the key and the second into the value of the dictionary
-- dict()
-    - Converts tuple to corresponding dictionary
-
-#### First Approach
-```python
-# Python code to convert into dictionary
-
-def Convert(tup, di):
-	for a, b in tup:
-		di.setdefault(a, []).append(b)
-	return di
-	
-# Driver Code	
-tups = [("A", 1), ("B", 2), ("C", 3)]
-dictionary = {}
-print (Convert(tups, dictionary))
-```
-#### Second Approach
-```python
-# Python code to convert into dictionary
-
-def Convert(tup, di):
-	di = dict(tup)
-	return di
-	
-# Driver Code
-tups =  [("A", 1), ("B", 2), ("C", 3)]
-dictionary = {}
-print (Convert(tups, dictionary))
-```
-
-## Questions to ask
-- What is the underlying big O for dict()?
-    - O(N)
-- What is the difference between list and tuples in Python?
-    - Lists are: mutable and slower. Uses []
-    - Tuples are: immutable and faster. Uses ()
-
 ### Additional Dictionary Problems
 - Problem 1: Write a program to reverse dictionary keys order
 - Problem 2: Write a program to sort nested keys by value
-- Problem 3: Write a program to remove duplicate values across dictionary values	
+- Problem 3: Write a program to remove duplicate values across dictionary values
 		
 *An empty file to write code for these problems can be found under Unit_06_Dictionaries -> Practice -> Problems. Additionally, solutions for each problem can be found under Unit_06_Dictionaries -> Practice -> Solutions.*
 
