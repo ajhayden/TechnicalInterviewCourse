@@ -15,7 +15,7 @@
 
 ## Linked Lists
 - What are linked lists?
-    - A sequence of data elements, which are connected together via links
+    - A sequence of data elements, which are connected together via pointers
 - What is a node?
     - An element of a linked list
 - What are the two node fields?
@@ -23,9 +23,10 @@
     - Next: contains reference to next node on the list
 
 ## Linked Lists Visual
-- Find a picture to insert here with an explanation
+![singly linked list image](linkedList.png)
+The first node is called the `head`, and it’s used as the starting point for any iteration through the list. The last node must have its `next` reference pointing to `None` to determine the end of the list
 
-## When to use Linked Lists vs Array
+## When to use Linked Lists vs. Array
 1. When you need constant-time insertions/deletions from the list (such as in real-time computing where time predictability is absolutely critical)
 2. When you don't know how many items will be in the list. With arrays, you may need to re-declare and copy memory if the array grows too big
 3. When you don't need random access to any elements
@@ -37,10 +38,14 @@
 3. Add required methods to LinkedList class
 
 ### Linked List Problems
-- Problem 1: Write a program to remove duplicates from a sorted list
-- Problem 2: Write a program to find the intersection of two linked lists
-- Problem 3: Write a program to merge two sorted lists
-- Problem 4: Write a program to delete N nodes after M nodes of a linked list
+- Problem 1: Write classes to build a basic singly linked list
+- Problem 2: Write a program to reverse a linked list
+- Problem 3: Write a program to delete a given node from a linked list
+- Problem 4: Write a program to remove duplicates from a sorted list
+- Problem 5: Write a program to remove duplicates from an unsorted list
+- Problem 6: Write a program to find the intersection of two linked lists
+- Problem 7: Write a program to merge two sorted lists
+- Problem 8: Write a program to delete N nodes after M nodes of a linked list
 
 *An empty file to write code for these problems can be found under Unit_07_Linked_Lists -> Practice -> Problems. Additionally, solutions for each problem can be found under Unit_07_Linked_Lists -> Practice -> Solutions.*
 
