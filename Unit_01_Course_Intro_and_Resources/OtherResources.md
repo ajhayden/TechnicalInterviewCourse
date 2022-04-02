@@ -28,6 +28,9 @@ Would you like to add a resource? [Open a pull request!](https://github.com/ajha
 - 75 commonly asked LeetCode questions.
 - Studying all 75 will give you a wide range of problem categories and help you with other similar problems.
 
+[Visualgo.net](https://visualgo.net/)
+- Helpful visualizations for common data structures and algorithms.
+
 ## Handbooks
 [Tech Interview Handbook](https://techinterviewhandbook.org/)
 - Provides practical advice and a roadmap for the entire interview process, from resume revision to interview formats to essential DSA you should know.
