@@ -2,39 +2,17 @@
 
 [Recursion Slides](https://docs.google.com/presentation/d/1YBPDu-WAOE7IpuyMX98K8u3djWcQ9clh-tLCwKcEcEU/edit?usp=sharing)
 ## Understanding Recursion
-- Recursion is a method that calls itself and is conditioned on a parameter that if met the process will end
-    - Base case: When would the process complete?
+- Recursion is a method that calls itself. Each recursive algorithm has a condition that, if met, will end the method calls.
+    - Base case: The condition that will end the loop of self-calls
     - Sub-problem: What is the smallest subset of work to be performed?
 
 ### Practice Time
-Recursion Practice
+#### Recursion Practice
 - Write a program that creates the value in the fibonacci sequence given n
     - 1, 1, 2, 3, 5, 8, 13, 21, 34
 
-### Practice Solution
-```python
-def find_fib(n):
-    if n == 0 or n==1:
-        return n
-    else:
-        return find_fib(n - 1) + find_fib(n - 2)
-```
-
-## The Call Stack
-A call stack is a stack data structure that stores information about the active subroutines of a computer program.
-
-### Practice Time
-On a piece of paper create the call stack for the fibonacci sequence
-
 #### Solution
-![fibonacci sequence call stack"](fibonacci_sequence_call_stack.jpeg)
-
-## Solving Recursion Big O
-- O (branches^depth)
-    - Fibonacci Sequence?
-        - O(2^n)
-
-## Iterative Approach
+Iterative Approach
 ```python
 def find_fibonacci_sequence(n):
     if (n == 0):
@@ -53,10 +31,41 @@ def find_fibonacci_sequence(n):
     else:
         return -1
 ```
-Notice the code is more complex and less elegant
+Notice the code is more complex and less elegant.
+
+Recursive Approach
+```python
+def find_fib(n):
+    if n == 0 or n==1: # the base case
+        return n
+    else:
+        return find_fib(n - 1) + find_fib(n - 2)
+```
+The recursive solution is much more concise.
+
+## The Call Stack
+A call stack is a stack data structure that stores information about the active subroutines of a computer program. Every time a recursive function calls itself, another call is added to the call stack. After the base case stops further calls, the call stack unravels one call at a time until all recursive calls are gone.
+
+Visualizing the call stack can help you solve recursive problems by understanding the steps behind them.
+
+### Practice Time
+On a piece of paper create the call stack for the fibonacci sequence.
+
+#### Solution
+![fibonacci sequence call stack](fibonacci_sequence_call_stack.jpeg)
+
+## Recursion Big O
+Each call on the call stack takes up memory (space complexity). If a recursive function doesn't have a base case, the function will call itself an infinite number of times, the number of calls on the call stack will max out, and a stack overflow will occur.
+
+To calculate the Big O of recursive functions, look at the breadth and depth of the tree.
+
+- O (branches^depth)
+    - Fibonacci Sequence?
+        - O(2^n)
+- [Helpful Stack Overflow post](https://stackoverflow.com/questions/43298938/space-complexity-of-recursive-function)
 
 ## Practice Problems
-Remember the following principles when you practice:
+Remember to use the problem solving steps when you practice:
 1. Breathe
 2. Listen to understand
 3. Use examples
